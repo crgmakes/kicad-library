@@ -1,0 +1,149 @@
+(footprint "1812X7R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Chip Monolithic Ceramic Capacitors Medium Voltage High Capacitance for General Use\n\nSource: http://www.murata.com .. GRM43DR72E224KW01.pdf")
+	(property "Reference" "REF**"
+		(at -1.9456 -1.9958 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e2bee95a-9c7b-4981-abcc-6e996dc75b33")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1812X7R"
+		(at -1.9456 3.7738 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1be0ba9c-aaa3-4ba8-8d2a-7d9799bd54ef")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97e5049c-3905-4fd3-b7d3-95c16b4af8f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21c20598-32af-4a40-b341-c30b68d94cc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0a9383e-c1ac-4383-aec7-a9f02cb59f08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.6 -1.5)
+		(end 0.6 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71fb8a6d-8df7-4047-810a-5a1573442570")
+	)
+	(fp_line
+		(start 0.6 1.5)
+		(end -0.6 1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24d48a8f-a083-4fce-a72d-a0fbc3eae131")
+	)
+	(fp_line
+		(start -1.1 -1.5)
+		(end 1.1 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34cdf9a6-a5ea-46b1-8a0e-3d6ee33323f7")
+	)
+	(fp_line
+		(start 1.1 1.5)
+		(end -1.1 1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35794616-0c0d-477b-98a1-16f765ee5d73")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 1.6) (xy -1.1 1.6) (xy -1.1 -1.6) (xy -1.4 -1.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "26474cfc-bb4a-470f-8d64-e46be8b662b7")
+	)
+	(fp_poly
+		(pts
+			(xy 1.4 -1.6) (xy 1.1 -1.6) (xy 1.1 1.6) (xy 1.4 1.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "5c967c29-c0da-4f0c-aa04-12767097857b")
+	)
+	(pad "1" smd rect
+		(at -1.425 0)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "61d118ad-dbc2-4b99-aa3e-22381b804639")
+	)
+	(pad "2" smd rect
+		(at 1.425 0 180)
+		(size 0.8 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "339141fb-780c-4024-81e5-b9d9f7efd5be")
+	)
+)

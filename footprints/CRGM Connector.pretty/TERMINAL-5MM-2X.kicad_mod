@@ -1,0 +1,207 @@
+(footprint "TERMINAL-5MM-2X"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PCB mount screw terminal, 2x\n\nhttps://www.mouser.com/ProductDetail/CUI-Devices/TB001-500-02BE?qs=sGAEpiMZZMvPvGwLNS671%2FDanv8Jav06SIfJcN9KPIVGn2b90zlTyg%3D%3D")
+	(property "Reference" "REF**"
+		(at 2.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8f53070-77d7-4340-a8d1-515cc20d5510")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" "TERMINAL-5MM-2X"
+		(at 2.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f816d01-456a-4e7e-81e9-33ddeb39539f")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b5d2713-6d59-41f6-a855-60807c51c6d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "987c7f54-7973-4910-83c3-22cc87e07723")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a8aea85-1e8b-4837-82b0-7fad2c732b9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04f1276a-0031-478e-973b-ff69cc5c5a66")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bac36553-762d-4e10-9aab-9965485233b6")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f462b7a-bdaa-4dd3-99b7-3ffa95dc26dd")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "215624cd-bb58-416b-b2b1-dfd93cf13c5d")
+	)
+	(fp_line
+		(start -3.5 -6)
+		(end 8.5 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "275290f0-330e-4a93-bcb3-ad7bc7ce1259")
+	)
+	(fp_line
+		(start -3.5 5)
+		(end -3.5 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8bf1daa-61e7-4123-a606-97f0486c3b5a")
+	)
+	(fp_line
+		(start -2.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ce8e8c6-1a59-4b19-9e04-096a5c62466c")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4b1d67f-3dfd-46c7-9f7e-2e8c87bbe450")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4487824-73bc-49c7-9c73-3b842ed4fd9d")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -2.5 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21d709af-ac57-4fd8-8438-a4cb8c296b6c")
+	)
+	(fp_line
+		(start 8.5 -6)
+		(end 8.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b8227b3-b3ba-4deb-bc22-372c7ec265ca")
+	)
+	(fp_line
+		(start 8.5 5)
+		(end -3.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbaa0c4b-cae7-4b30-9bca-9f8215ac205b")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bc587e3e-335f-49e6-a734-f69e5a4140e3")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4aeb3c91-838b-4a81-80e1-832dea99779a")
+	)
+)

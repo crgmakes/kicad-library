@@ -1,0 +1,228 @@
+(footprint "JST04_1MM_RA_STRESSRELIEF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.")
+	(property "Reference" "REF**"
+		(at -1.397 2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0319cc63-5795-41cf-b032-10f817cbe16c")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "JST04_1MM_RA_STRESSRELIEF"
+		(at -1.651 3.302 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1482544-c041-4ad0-b8fc-72646bb851b7")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9233573-3c25-47e0-b264-78a10599b0f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38c821d1-2fcd-4957-bdd8-0512a0d8b4f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16cb06e7-ffc4-4907-ad4a-908f766a62a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3 0.35)
+		(end -2.25 0.35)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9db2ca1-41df-4954-8f06-8ef67bc92547")
+	)
+	(fp_line
+		(start -3 2)
+		(end -3 0.35)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85a5158f-e50c-4935-b8cb-f9fcceb6af36")
+	)
+	(fp_line
+		(start -1.5 4.6)
+		(end 1.5 4.6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "113db92c-dc2c-4fab-a11a-79749ac1fc10")
+	)
+	(fp_line
+		(start 2.25 0.35)
+		(end 3 0.35)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c58e3fc8-d4c9-499b-934b-febdb27d10d7")
+	)
+	(fp_line
+		(start 3 0.35)
+		(end 3 2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17916bf7-5930-4b39-b533-464fe48da08a")
+	)
+	(fp_circle
+		(center -2.5 -0.3)
+		(end -2.3586 -0.3)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b36740d7-2b54-4da2-a173-cca3f9b4af54")
+	)
+	(fp_line
+		(start -4 6)
+		(end -4 10.16)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "161170be-4f2d-4f05-941d-eba8b5402700")
+	)
+	(fp_line
+		(start -2 8)
+		(end 4 8)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b391d803-a94c-4082-a828-5ff074d265e0")
+	)
+	(fp_line
+		(start -2 10.16)
+		(end -2 8)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7f33bba6-a88b-4522-ae63-cd27cb1db931")
+	)
+	(fp_line
+		(start 4 6)
+		(end -4 6)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "53f8c413-c4a0-4501-9e7e-c25881177084")
+	)
+	(fp_line
+		(start 4 8)
+		(end 4 6)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3c8a62da-32ae-4f23-8411-f3626c718689")
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 0.6 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "f97e1b21-86a3-4e9d-8587-d079fb366bb6")
+	)
+	(pad "2" smd rect
+		(at -0.5 0)
+		(size 0.6 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "86ef4a79-ee35-4abc-a7c8-4813fe970c7d")
+	)
+	(pad "3" smd rect
+		(at 0.5 0)
+		(size 0.6 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5863931f-36f4-4bb7-b0ce-9e98d33f344d")
+	)
+	(pad "4" smd rect
+		(at 1.5 0)
+		(size 0.6 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4d3acb7d-1784-41f7-9a0b-5e41293e1984")
+	)
+	(pad "NC1" smd rect
+		(at 2.8 3.675)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bff140b4-f66b-46d5-875f-33660e90208b")
+	)
+	(pad "NC2" smd rect
+		(at -2.8 3.675)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "3c760533-00c3-48b7-8c9a-d46e8144bc99")
+	)
+)

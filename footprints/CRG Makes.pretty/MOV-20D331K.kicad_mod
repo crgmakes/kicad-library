@@ -1,0 +1,139 @@
+(footprint "MOV-20D331K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.54 -12.954 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "471ed4cf-dacb-4f36-96c9-48ef523af812")
+		(effects
+			(font
+				(size 1.0795 1.0795)
+				(thickness 0.1905)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MOV-20D331K"
+		(at -2.54 14.351 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5ec5e7d6-03ad-431d-99e8-366daab6c6d4")
+		(effects
+			(font
+				(size 1.0795 1.0795)
+				(thickness 0.1905)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de059dc3-2182-438e-8cf2-fef709e98ffc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34175814-f067-40cd-942e-e48dc924bb3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1838045c-6c3e-4e25-9150-47f43ca03e93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.54 -12.7)
+		(end -2.54 12.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b916ad8-0ed9-4984-bfd8-1a1fb00c3bfa")
+	)
+	(fp_line
+		(start -2.54 12.7)
+		(end 2.54 12.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2997b748-4973-45fd-b2af-3e0231ed1989")
+	)
+	(fp_line
+		(start 2.54 -12.7)
+		(end -2.54 -12.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fb868ed-ec8e-4c7d-83bf-eccc9aad47fa")
+	)
+	(fp_line
+		(start 2.54 12.7)
+		(end 2.54 -12.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf077d91-248e-42f6-b5d8-cf0697145482")
+	)
+	(pad "P$1" thru_hole circle
+		(at 1.27 -5.0038)
+		(size 1.7145 1.7145)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0f752ec8-a7f8-46f8-aa72-644150676c3f")
+	)
+	(pad "P$2" thru_hole circle
+		(at -1.27 5.0038)
+		(size 1.7145 1.7145)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d42a4bc4-3d00-4fb7-bb02-9696eb19436e")
+	)
+	(model "/Users/tsasala/Development/pcb/KiCad/Models/MOV-20D331K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -15)
+		)
+	)
+)

@@ -1,0 +1,199 @@
+(footprint "VTA55"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bulk Metal® Foil Technology, Tubular Axial Lead Resistors, Meets or Exceeds MIL-R-39005 Requirements\n\nMIL SIZE RBR55\nSource: VISHAY .. vta56.pdf")
+	(property "Reference" "REF**"
+		(at -3.81 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "42ec39f3-67d7-4cd0-bf17-69b285666b49")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "VTA55"
+		(at -3.175 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bcf44706-6a69-4a5a-af07-97ce555dcc9d")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "633da72e-22af-45a1-9254-5078d1a12b81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f6db6cd-28fe-4313-ad62-18ac48a27839")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3213de65-f832-4851-9f80-b26a99b4361b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -6.405 -3.3)
+		(end -6.405 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc0c55d7-8b48-4615-a6e0-8a9ffd8523a7")
+	)
+	(fp_line
+		(start -6.405 0)
+		(end -6.405 3.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "559bac43-0bcc-4682-959c-2a657369b5f8")
+	)
+	(fp_line
+		(start -6.405 3.3)
+		(end 6.405 3.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35d137f9-300d-47f6-ab5f-1b926ebb1e57")
+	)
+	(fp_line
+		(start 6.405 -3.3)
+		(end -6.405 -3.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f798f23-30ff-4645-bd80-c7269e7154e6")
+	)
+	(fp_line
+		(start 6.405 0)
+		(end 6.405 -3.3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab62d6cf-7f3c-4966-a558-b8ad7621d626")
+	)
+	(fp_line
+		(start 6.405 3.3)
+		(end 6.405 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "294d4e67-099b-47cc-8b4d-c1d8d010f836")
+	)
+	(fp_poly
+		(pts
+			(xy -6.985 0.3048) (xy -6.35 0.3048) (xy -6.35 -0.3048) (xy -6.985 -0.3048)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "42ecdae7-8d27-470e-a6e2-854a0492fd47")
+	)
+	(fp_poly
+		(pts
+			(xy 6.35 0.3048) (xy 6.985 0.3048) (xy 6.985 -0.3048) (xy 6.35 -0.3048)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f242eab6-78c7-4590-9f24-8ee357a74aae")
+	)
+	(fp_line
+		(start -8.255 0)
+		(end -6.985 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "996ae05a-498b-4f9c-93f7-57ab61886c38")
+	)
+	(fp_line
+		(start 6.985 0)
+		(end 8.255 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c1ca094-5fb6-49c5-af1e-6c77edddb433")
+	)
+	(pad "1" thru_hole roundrect
+		(at -8.255 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d9f8f30d-3a7f-4294-8e98-7cbf8341a49a")
+	)
+	(pad "2" thru_hole roundrect
+		(at 8.255 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4cb12352-69bb-4649-be8a-4f784c0633b3")
+	)
+)

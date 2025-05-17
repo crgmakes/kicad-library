@@ -1,0 +1,131 @@
+(footprint "CAP-1P-5D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Radial Polarized Capacitor, 5.50 mm pitch, 12.00 mm body diameter, 20.00 mm body height\n\nRadial Polarized Capacitor package with 5.50 mm pitch (lead spacing), 0.60 mm lead diameter, 12.00 mm body diameter and 20.00 mm body height")
+	(property "Reference" "REF**"
+		(at -2.54 -2.825 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e0992d37-fd59-4996-9fbe-6dcba280146a")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CAP-1P-5D"
+		(at -2.54 4.095 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80736b30-fe2b-46a0-b2c8-cba1103724c4")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0575f81-287f-488a-b013-b47a9c2f7830")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ec31498-b2e8-4c31-a146-a51b101cb55a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcda1cc5-70b4-4063-a0e4-1f7b97b8beaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.4427 -0.9027)
+		(end -2.6927 -0.9027)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27a5d5a8-0d82-4a8c-b869-a331907a178c")
+	)
+	(fp_line
+		(start -3.0677 -1.2777)
+		(end -3.0677 -0.5277)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10c62f86-a20a-47e4-a9a9-f81de3c086e4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "344f1702-6598-4196-b785-974050c511f3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9b7be00c-b524-4790-a330-d89a120235c4")
+	)
+	(pad "1" thru_hole circle
+		(at -1 0)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "64d8e05c-69f3-462f-9a24-8c6ae6b8c757")
+	)
+	(pad "2" thru_hole circle
+		(at 0.75 0)
+		(size 1.058 1.058)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4a93a60c-9664-4198-bbea-cb08c4ba99a1")
+	)
+)

@@ -1,0 +1,159 @@
+(footprint "POWER_JACK_PTH_SLOT_NO_OVRHNG_SILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DC Barrel Power Jack/Connector PTH 5.5mm jack, 2.1mm center pole diameter\n\nSpecifications:\n\n• Pin count: 3\n\nDatasheet referenced for footprint\n\nExample device(s):\n\n• POWER_JACK")
+	(property "Reference" "REF**"
+		(at -4.3 3.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ad66eb3-2cb7-40e2-b9ce-84981f79a904")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "POWER_JACK_PTH_SLOT_NO_OVRHNG_SILK"
+		(at -4.4 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9103f545-b7a0-4d53-bcec-85e8e24403f5")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a73611c9-d1a1-420b-8340-5b102f34b574")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a515aef5-de0b-4ca7-81bd-ed9939cd6d98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b711666-4ff1-4de3-8c9b-61d2a9c0afb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.7 -4.5)
+		(end -5.7 -2.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c63316fc-f4bb-4425-9661-62bb76cafb9c")
+	)
+	(fp_line
+		(start -5.7 -4.5)
+		(end -5.6 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6debfaf2-ec7f-420d-8ece-d7fa0e5a6bdd")
+	)
+	(fp_line
+		(start -5.7 4.5)
+		(end -5.7 2.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d708427c-cbda-4cb4-bb0b-4b78096769e7")
+	)
+	(fp_line
+		(start 0.5296 4.5)
+		(end 7.7 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f730d88c-b89c-4c4b-a3b7-7a1bebe46c15")
+	)
+	(fp_line
+		(start 7.7 -4.5)
+		(end 0.5296 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1e02af3-0862-460b-95f8-4aefb21c0e4f")
+	)
+	(fp_line
+		(start 7.7 -4.5)
+		(end 7.7 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "696bc9cd-81af-4b7e-bb65-2cbd69002a62")
+	)
+	(pad "GND" thru_hole oval
+		(at 0 0 90)
+		(size 4 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "1f959c5e-4a36-427a-ab3d-6555df5ce27e")
+	)
+	(pad "GNDBREAK" thru_hole oval
+		(at -3.048 -4.699 180)
+		(size 4 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "cc3cede8-9425-4d06-b34a-97e1734b9236")
+	)
+	(pad "PWR" thru_hole oval
+		(at -5.969 0 90)
+		(size 4.6 2.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "9e342db2-a236-4cfc-af7c-aa46c12c187e")
+	)
+)

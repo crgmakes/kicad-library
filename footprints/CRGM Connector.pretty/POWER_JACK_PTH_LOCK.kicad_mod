@@ -1,0 +1,225 @@
+(footprint "POWER_JACK_PTH_LOCK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DC Barrel Power Jack/Connector PTH Locking Footprint 5.5mm jack, 2.1mm center pole diameter.\nHoles are offset from center 0.005\" to hold pins in place during soldering.\n\nSpecifications:\n\n• Pin count: 3\n\nDatasheet referenced for footprint\n\nExample device(s):\n\n• POWER_JACK")
+	(property "Reference" "REF**"
+		(at -1.5748 -2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65de823d-3303-4349-88f6-42a0553fc969")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "POWER_JACK_PTH_LOCK"
+		(at -1.905 -1.143 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "98938b15-e300-43cf-bc54-1cb22f5ce40a")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af57408d-2b0c-4583-a4d1-82395d3f3fe1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1308eead-042f-49cf-8b7c-76cd7385d11e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7da85551-b090-43a8-865b-60c03c15e6d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.3476 -14.2588)
+		(end -2.4 -14.2588)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "068ac88a-681d-4bf5-9511-d8d3437c6b1b")
+	)
+	(fp_line
+		(start -4.3476 -3.254)
+		(end -4.3476 -14.2588)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d38ab9e7-d48d-4c68-b8be-17efbea3b916")
+	)
+	(fp_line
+		(start -4.3476 -3.254)
+		(end 4.3476 -3.254)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8e5615d-767d-4181-8765-742617db7135")
+	)
+	(fp_line
+		(start 4.3476 -14.2588)
+		(end 2.4 -14.2588)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de084865-116b-4edd-be53-5bcb235484f8")
+	)
+	(fp_line
+		(start 4.3476 -14.2588)
+		(end 4.3476 -13)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ef43336-2403-4a32-810a-343d32fa321b")
+	)
+	(fp_line
+		(start 4.3476 -3.254)
+		(end 4.3476 -8.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b84f5a5c-7890-4efd-a868-3cec178bfb7f")
+	)
+	(fp_line
+		(start -4.3476 -3.2794)
+		(end -4.3476 -0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cf81a24-00dd-42cd-94b8-a83074d25910")
+	)
+	(fp_line
+		(start 4.3476 -0.1)
+		(end -4.3476 -0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f623b4ba-3333-4ab7-9da0-3f14e0fe47b6")
+	)
+	(fp_line
+		(start 4.3476 -0.1)
+		(end 4.3476 -3.2794)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd311c46-05c7-4d11-98d7-c7e99860bdc1")
+	)
+	(fp_poly
+		(pts
+			(xy 1.2192 -7.3914) (xy 1.2192 -7.6708) (xy -1.2192 -7.6708) (xy -1.2192 -7.3914)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "350f1b88-eaa6-4c38-8245-41ce1b57bd27")
+	)
+	(fp_poly
+		(pts
+			(xy 1.4732 -13.4112) (xy 1.4732 -13.8684) (xy -1.4478 -13.8684) (xy -1.4478 -13.4112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "afa03708-529a-4068-be86-c3f00cc5d278")
+	)
+	(fp_poly
+		(pts
+			(xy 4.7498 -11.9126) (xy 4.4704 -11.9126) (xy 4.4704 -9.4742) (xy 4.7498 -9.4742)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "2be38a0f-82a2-465f-a544-224e6c6ae614")
+	)
+	(pad "GND" thru_hole circle
+		(at 0.0254 -6.557)
+		(size 4.1148 4.1148)
+		(drill 2.9972)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "3238542e-8637-4e5d-baad-8a4e141ac63c")
+	)
+	(pad "GNDBREAK" thru_hole circle
+		(at 3.7616 -10.7 90)
+		(size 4.1148 4.1148)
+		(drill 2.9972)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d62482de-dc4f-44c3-aaf9-9e18658f35d1")
+	)
+	(pad "PWR" thru_hole circle
+		(at 0 -13.8778)
+		(size 4.1148 4.1148)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "4b05ec48-a17a-4f43-827c-4fffb67c64d0")
+	)
+)

@@ -1,0 +1,135 @@
+(footprint "SOD-323"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOD-323 (Small Outline Diode)\n\n• Total Size: 1.4mmx1.8mm\n• Landing Pad Size: 0.6..x0.45mm\n• JEITA SC-76")
+	(property "Reference" "REF**"
+		(at -2.032 -0.762 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aa41c4a7-cf36-45a7-9fc7-019895b413f6")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SOD-323"
+		(at -1.905 0.762 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1797375c-9eae-44ba-b5a8-6061d7d108d3")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "701dd0d7-4d8e-44f8-a064-05c5234eec5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e10d54cd-f2c1-437c-aac8-bd814bb92942")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dda1f429-ac67-4485-a8c9-cedcb8c5f126")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.7 -0.25)
+		(end -1.4 -0.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe2fe353-afee-4aa0-b601-839d45be48a9")
+	)
+	(fp_line
+		(start -1.7 0.55)
+		(end -1.7 -0.25)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55b9d9b2-01e8-4eff-8f6c-8cb651ad3a86")
+	)
+	(fp_line
+		(start -1.4 -0.55)
+		(end 1.7 -0.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbbcfe61-8461-492a-94b9-0b0a11ef31e7")
+	)
+	(fp_line
+		(start 1.7 -0.55)
+		(end 1.7 0.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7ea52ae-edf8-4c79-8e3f-4cc18acd8b4d")
+	)
+	(fp_line
+		(start 1.7 0.55)
+		(end -1.7 0.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5419e5b4-e599-43fd-a6d2-73232c706257")
+	)
+	(pad "A" smd rect
+		(at 1.15 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "dba33ad0-1a5f-4cf6-8343-410596c01eed")
+	)
+	(pad "C" smd rect
+		(at -1.15 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "886572d8-b3be-48d6-b9b4-e35d4dceebdd")
+	)
+)

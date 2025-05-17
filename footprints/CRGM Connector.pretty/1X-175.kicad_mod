@@ -1,0 +1,79 @@
+(footprint "1X-175"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole, 175mil")
+	(property "Reference" "REF**"
+		(at -1.27 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b5e3d47a-1249-4391-abf2-042d345fc827")
+		(effects
+			(font
+				(size 1.0795 1.0795)
+				(thickness 0.1905)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1X-175"
+		(at -1.27 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c64b311a-e6ef-4896-9229-db2359976e48")
+		(effects
+			(font
+				(size 1.0795 1.0795)
+				(thickness 0.1905)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55499ec4-630b-4acd-bfee-679ed0eafe22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b5cb27c-d69a-4d8d-835e-d6b5812befa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0555e80a-bf33-4c5c-8165-8a7dca25d8fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "P$1" thru_hole circle
+		(at 0 0)
+		(size 6.35 6.35)
+		(drill 4.445)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "8ef98777-9728-4c0b-80cf-f58e4d888625")
+	)
+)

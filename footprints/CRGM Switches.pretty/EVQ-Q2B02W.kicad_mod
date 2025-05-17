@@ -1,0 +1,173 @@
+(footprint "EVQ-Q2B02W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.273203 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "b613ff6e-57e4-4b66-bbba-d2e8cf52c0d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EVQ-Q2B02W"
+		(at 0.1 4.05 0)
+		(layer "F.Fab")
+		(uuid "c4c734bf-66e8-48f8-8aae-612e1bf42d00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13495c83-711a-455c-924d-75551b327498")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b21f6b84-d182-42b1-be7d-e17d834a0d95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 -3)
+		(end 3.25 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4536d03a-a6e6-4253-b4b1-0e94e4955c0c")
+	)
+	(fp_line
+		(start 3.25 3)
+		(end -3.25 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9709ffd3-4472-4097-8c97-2b30f77a7045")
+	)
+	(fp_line
+		(start -5.25 -3.25)
+		(end 5.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "469110d9-e82a-4914-bf63-d623d4854680")
+	)
+	(fp_line
+		(start -5.25 3.25)
+		(end -5.25 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b3e8807-2f0e-48de-a704-bd430929668d")
+	)
+	(fp_line
+		(start 5.25 -3.25)
+		(end 5.25 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "305b3609-b540-4687-85b7-2cb54aa3f975")
+	)
+	(fp_line
+		(start 5.25 3.25)
+		(end -5.25 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c6adb72-09a3-420a-94b2-8225e89a5613")
+	)
+	(fp_line
+		(start -3.25 -3)
+		(end -3.25 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec7408cf-75ef-421e-a4e2-008075fde4b4")
+	)
+	(fp_line
+		(start 3.25 -3)
+		(end 3.25 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "999b13d9-eb82-4eef-82b9-611158903e32")
+	)
+	(pad "A1" smd rect
+		(at -3.4 2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.035)
+		(uuid "958ad3f4-3535-4298-bb9e-5e9eb0fece6a")
+	)
+	(pad "A2" smd rect
+		(at 3.4 2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.035)
+		(uuid "0a1dc2aa-fbca-4aea-8738-4f81391bf640")
+	)
+	(pad "B1" smd rect
+		(at -3.4 -2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.035)
+		(uuid "c99dec57-ed69-4139-ab26-e1493e54382e")
+	)
+	(pad "B2" smd rect
+		(at 3.4 -2)
+		(size 3.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.035)
+		(uuid "0439ec97-fbc0-48f3-8f09-586b438ed1f2")
+	)
+	(embedded_fonts no)
+	(model "/Users/tsasala/Development/pcb/KiCad/Models/EVQ-Q2B02W.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

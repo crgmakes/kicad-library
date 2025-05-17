@@ -1,0 +1,199 @@
+(footprint "CAPPAD3410W80L3025D1825B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Axial Polarized Capacitor, 34.10 mm pitch, 30.25 mm body length, 18.25 mm body diameter\n\nAxial Polarized Capacitor package with 34.10 mm pitch (lead spacing), 0.80 mm lead diameter, 30.25 mm body length and 18.25 mm body diameter")
+	(property "Reference" "REF**"
+		(at 0 -9.885 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "411eda63-381c-4697-b3a8-806aeb484853")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "CAPPAD3410W80L3025D1825B"
+		(at 0 9.885 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e67118d-3566-458e-9c89-eb8bfd73c7f0")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3952a7d0-a9f9-411a-92f8-5037962b200c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be063332-1add-4eb9-8dd1-5a279f65d9d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be9ba074-77cd-465c-a845-b56169d9beeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -15.25 -9.25)
+		(end -15.25 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c65c59a5-cf66-4f63-aecd-8c9c439e6229")
+	)
+	(fp_line
+		(start -15.25 0)
+		(end -15.996 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc742140-d919-4970-bf44-37c7afa83dfe")
+	)
+	(fp_line
+		(start -15.25 9.25)
+		(end 15.25 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac99fa37-1790-4cd1-a5c7-ccd38045cbb9")
+	)
+	(fp_line
+		(start -11.4375 -9.25)
+		(end -11.4375 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d502c63-c8e6-46a2-b1bb-3368e648c250")
+	)
+	(fp_line
+		(start 15.25 -9.25)
+		(end -15.25 -9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7956837f-3a9d-4f09-b6b7-3cd39cac2ca1")
+	)
+	(fp_line
+		(start 15.25 0)
+		(end 15.996 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10cf33dc-d373-4f87-af12-7b204432a63c")
+	)
+	(fp_line
+		(start 15.25 9.25)
+		(end 15.25 -9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19a166fd-57df-4094-915c-8c98b1cc4ceb")
+	)
+	(fp_line
+		(start -15.25 -9.25)
+		(end 15.25 -9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cba29f1-cad2-4b56-bfa9-bfec1a14b14c")
+	)
+	(fp_line
+		(start -15.25 9.25)
+		(end -15.25 -9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3771eadb-2973-498f-99a3-d486ace6a365")
+	)
+	(fp_line
+		(start 15.25 -9.25)
+		(end 15.25 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "926bbf14-bbc4-4c28-9051-9bfdd749d825")
+	)
+	(fp_line
+		(start 15.25 9.25)
+		(end -15.25 9.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "406a88ca-b48c-4941-9667-d967ee96df61")
+	)
+	(pad "1" thru_hole circle
+		(at -17.05 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "7d734ba6-a7f2-41fb-a5c3-15ac794318e0")
+	)
+	(pad "2" thru_hole circle
+		(at 17.05 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "395bf52c-bdb4-4d82-ac73-27d2c096536e")
+	)
+)

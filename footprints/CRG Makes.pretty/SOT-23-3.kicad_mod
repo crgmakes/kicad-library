@@ -1,0 +1,173 @@
+(footprint "SOT-23-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-23-3\n\n• Total Size: 3mm x 2.5mm\n• Landing Pad Size: .6mm x .7mm\n• https://www.mouser.com/datasheet/2/916/MMBT3904_Q-3078664.pdf")
+	(property "Reference" "REF**"
+		(at -3.048 -2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "14141d19-e1c3-4b32-839f-ec4df2e45d38")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SOT-23-3"
+		(at -3.302 2.159 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6fe0f3a0-4e93-4646-af8e-a2b01d2f70d4")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c32ee49-ed76-4933-bf4f-8ad3e0f6266b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a23d8da-8583-449e-97e4-10bfc53f52b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86f7e879-6692-4e39-bce0-2bd34bc1372d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.708771 -1.905)
+		(end 1.683546 -1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c19dfe7b-94ba-4cb8-8be4-f1c6320346e8")
+	)
+	(fp_line
+		(start -1.708771 1.772918)
+		(end -1.708771 -1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e2e4c98-4154-4801-bae6-5508c5408344")
+	)
+	(fp_line
+		(start 1.683546 -1.905)
+		(end 1.683546 1.772918)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "210772ed-197b-4476-821e-1a811fd6a9c0")
+	)
+	(fp_line
+		(start 1.683546 1.772918)
+		(end -1.708771 1.772918)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f704cf32-a7a6-44d2-8744-987fc83226d4")
+	)
+	(fp_line
+		(start -1.4224 -0.6604)
+		(end 1.4224 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4202b51-d0e8-458e-97c7-617cfae48ea3")
+	)
+	(fp_line
+		(start -1.4224 0.6604)
+		(end -1.4224 -0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a77f459-5af0-47b4-a414-e5b2b665a9f2")
+	)
+	(fp_line
+		(start 1.4224 -0.6604)
+		(end 1.4224 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bbf9e42-72cc-435d-9c6d-dda44d428e3d")
+	)
+	(fp_line
+		(start 1.4224 0.6604)
+		(end -1.4224 0.6604)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2253fd69-f5e3-4885-a034-799d56c883cf")
+	)
+	(pad "1" smd rect
+		(at -0.95 1)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "f099691b-da3e-45c8-83f3-c3a74d9fbe44")
+	)
+	(pad "2" smd rect
+		(at 0.95 1)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "2f7c5001-377b-46a1-99a1-0ef8556d7e7d")
+	)
+	(pad "3" smd rect
+		(at 0 -1.1)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "365e53ce-d9f0-41a8-942a-c7c2f918d169")
+	)
+)

@@ -1,0 +1,214 @@
+(footprint "SPM5030"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SPM5030")
+	(tags "Inductor (FeSi Core) TDK ")
+	(property "Reference" "L**"
+		(at 0 -4.01 0)
+		(layer "F.SilkS")
+		(uuid "57de0c87-0c58-4ebb-8ae6-a43f3e18fc65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SPM5030"
+		(at 0.37 6.77 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1250e308-f0a0-4d91-a0f7-05c9399545d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ba64b3d-f47e-455b-8d81-43f4fdd5b5b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae1b7a7f-869f-4ee7-ba6f-9c9d31e3129d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD Power Inductor SPM5030T-1R0M"
+		(at -0.56 8.42 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92d2a9fe-e3ad-47be-a085-d5cb6baf33fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9520c55-e027-4b40-acdc-7273f37ab368")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c801c37-4a0f-4a03-afab-ae1d3d301180")
+	)
+	(fp_circle
+		(center -3.45 0)
+		(end -3.45 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1cfd5143-5ffa-48ee-8428-55f1dc679dc1")
+	)
+	(fp_line
+		(start -4.05 -3.2)
+		(end 3.35 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9fc2c324-74e0-4bb9-85dc-cf39c46b7a6a")
+	)
+	(fp_line
+		(start -4.05 3.2)
+		(end -4.05 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d930031-bec4-40f3-8746-a3c902ccb379")
+	)
+	(fp_line
+		(start 3.35 -3.2)
+		(end 3.35 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5324109-d10f-466d-9356-d57311a72755")
+	)
+	(fp_line
+		(start 3.35 3.2)
+		(end -4.05 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02fbfb8a-51a6-4c3a-b719-0aeed5712623")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37ce36ec-8c21-4d14-a97c-3d78acab39b9")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5fb47d4f-ce53-4a68-a9d1-6989446f5120")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "359f615a-7b0c-470d-805c-6a85531d62a8")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf55aebd-bbfa-47ff-a40b-5b1912aa288b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.08 5.04 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a02dbf5-6475-4333-a3a8-bbfe4991e71b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 1.5 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "955fcbf6-51c9-4938-8f97-408c85f07bcd")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 1.5 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a6bd6f95-21e3-4f03-b534-f6c2351f02c3")
+	)
+	(model "SPM5030T-1R0M.stp"
+		(offset
+			(xyz 0 0 0.1500000037)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

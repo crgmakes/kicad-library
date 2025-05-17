@@ -1,0 +1,131 @@
+(footprint "CAPPRD508W65D1000H1100B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Radial Polarized Capacitor, 5.08 mm pitch, 10.00 mm body diameter, 11.00 mm body height\n\nRadial Polarized Capacitor package with 5.08 mm pitch (lead spacing), 0.65 mm lead diameter, 10.00 mm body diameter and 11.00 mm body height")
+	(property "Reference" "REF**"
+		(at 0 -5.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f65115b6-baec-452e-afbd-9ce9a210de81")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "CAPPRD508W65D1000H1100B"
+		(at 0 5.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "60c1d806-8a4a-458c-9729-88585dcd5757")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad309d07-585c-45f0-99dc-6babad04c3b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "898d1cb4-7801-4144-b572-4d424df6e80b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e79bdce4-750c-43f1-b7e7-f2b1cf7b1064")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.1325 -4.1326)
+		(end -3.3825 -4.1326)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b25137cb-bd02-43d6-a4e5-90212d8511a0")
+	)
+	(fp_line
+		(start -3.7575 -4.5076)
+		(end -3.7575 -3.7576)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80e5cf8e-6dea-4bfd-a6c9-5db83965ffd4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c870f95f-ed90-44f0-8d57-19c800db5783")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3e40da6d-a94e-4492-aa51-bd65690b9d86")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.45 1.45)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "405432a2-fcb4-469b-bfc6-aa535496bfea")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.45 1.45)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "c7365f31-732b-48c6-ad0d-0bc44ff9346d")
+	)
+)

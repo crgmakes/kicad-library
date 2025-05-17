@@ -1,0 +1,77 @@
+(footprint "TP19SQ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TEST PAD")
+	(property "Reference" "REF**"
+		(at -0.95 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e5e397e4-6c16-484c-bc22-856c4b8df049")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TP19SQ"
+		(at -0.889 1.016 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd6de2c5-8708-4b56-b80b-312b4b370e09")
+		(effects
+			(font
+				(size 0.023368 0.023368)
+				(thickness 0.002032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6227755f-0dcc-44d8-bca4-e8c41a78e882")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a852093-6232-451f-8b78-333005b4fd49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c74bdfc7-fad8-4fdc-9f52-8a6689aa6ca8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "TP" smd rect
+		(at 0 0)
+		(size 1.8998 1.8998)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b317eeaf-3a84-4da8-b742-78f34f928f54")
+	)
+)

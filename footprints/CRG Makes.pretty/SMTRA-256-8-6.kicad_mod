@@ -1,0 +1,204 @@
+(footprint "SMTRA-256-8-6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.54 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5040bf00-839e-4e59-a351-b2718ceffa8f")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SMTRA-256-8-6"
+		(at 1.27 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71ff88db-2e6f-4f7d-a49b-8e20cd43d168")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1ebf3a3-1c17-4f67-a02d-425e3f73b091")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d48bed5-ca9c-473c-9c5e-b4e918f3f571")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30f057b1-3f74-4dfc-9635-36c1054857d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -3.302 -0.762) (xy 3.302 -0.762) (xy 3.302 -2.032) (xy -3.302 -2.032)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "9d635dd5-e6eb-4478-bd2b-5134b9b2fd4f")
+	)
+	(fp_poly
+		(pts
+			(xy -3.302 -0.508) (xy -2.794 -0.508) (xy -2.794 -0.762) (xy -3.302 -0.762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "68cd9232-11e3-4557-be91-36e8c36fc52b")
+	)
+	(fp_poly
+		(pts
+			(xy -3.302 0.762) (xy -2.794 0.762) (xy -2.794 0.508) (xy -3.302 0.508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "5d57ee6c-3423-4764-ae24-f8a4e98daecf")
+	)
+	(fp_poly
+		(pts
+			(xy -3.302 2.032) (xy 3.302 2.032) (xy 3.302 0.762) (xy -3.302 0.762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "69d05006-ef31-4a09-8e29-bef3b96efe73")
+	)
+	(fp_poly
+		(pts
+			(xy -1.016 -0.508) (xy 1.016 -0.508) (xy 1.016 -0.762) (xy -1.016 -0.762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "ce56624a-fc15-4895-bd8e-64b6a7ab1018")
+	)
+	(fp_poly
+		(pts
+			(xy -1.016 0.762) (xy 1.016 0.762) (xy 1.016 0.508) (xy -1.016 0.508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "86212adf-ad46-4042-86a4-d2f3b3c68875")
+	)
+	(fp_poly
+		(pts
+			(xy -1.016 1.016) (xy 1.016 1.016) (xy 1.016 0.762) (xy -1.016 0.762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "a2d5b899-4132-4a13-8a8d-a69cdbf7dd28")
+	)
+	(fp_poly
+		(pts
+			(xy 2.794 -0.508) (xy 3.302 -0.508) (xy 3.302 -0.762) (xy 2.794 -0.762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "8fc09de7-e210-488d-8566-96212426dba3")
+	)
+	(fp_poly
+		(pts
+			(xy 2.794 0.762) (xy 3.302 0.762) (xy 3.302 0.508) (xy 2.794 0.508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "b90de396-80c5-4718-ab69-e61099b4bec4")
+	)
+	(pad "P$1" thru_hole circle
+		(at -1.9939 0)
+		(size 2.0193 2.0193)
+		(drill 1.3462)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "2a6b6cdf-246d-42fc-b9e6-5b20650a85d7")
+	)
+	(pad "P$2" thru_hole circle
+		(at 1.9939 0)
+		(size 2.0193 2.0193)
+		(drill 1.3462)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bf355d06-0f4c-4177-8678-d5e0fea81cc3")
+	)
+	(pad "P$3" smd rect
+		(at 0 0)
+		(size 6.6548 4.3434)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bfe79519-f32b-4d15-8810-a46520893ff3")
+	)
+)

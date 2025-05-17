@@ -1,0 +1,7 @@
+{
+"description": "Protects incoming power from reversal and back feeding",
+"keywords": "reverse, power, back",
+"fields": {
+"VS": "5V"
+}
+}

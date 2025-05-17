@@ -1,0 +1,245 @@
+(footprint "POWER_JACK_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DC Barrel Power Jack/Connector -SMD 5.5mm jack, 2.1mm center pole diameter.\n\nSpecifications:\n\n• Pin count:4\n\nDatasheet referenced for footprint\n\nExample device(s):\n\n• POWER_JACK")
+	(property "Reference" "REF**"
+		(at -5.588 2.5908 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1996ecd8-87bc-4ccc-96da-301f62e17d71")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "POWER_JACK_SMD"
+		(at -3.683 2.667 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8ab3a17-b172-4cc0-973b-632549754d1d")
+		(effects
+			(font
+				(size 0.8636 0.8636)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87103449-d0be-49ab-b839-7952f5334e71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cadab247-b474-4ce4-a89e-14d69ea4679f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b20a3e4-a7f5-4ecf-92b7-9bed926265ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5 -4.5)
+		(end -5 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "772b8f15-c09d-4312-a5f8-ec5d12fc2ebc")
+	)
+	(fp_line
+		(start -5 -4.5)
+		(end -2 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "213f3ad4-c18b-46c8-a5f4-4022842983a3")
+	)
+	(fp_line
+		(start -2 4.5)
+		(end -5 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f53ed6a-c955-47f3-a58f-0980e3f48120")
+	)
+	(fp_line
+		(start 2 -4.5)
+		(end 4.1 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5707082f-25cd-4e1f-9787-e98486186ce0")
+	)
+	(fp_line
+		(start 4.1 4.5)
+		(end 2 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4709fbe-9e1d-4e93-95a7-ccc9edd2fc30")
+	)
+	(fp_line
+		(start 8.2 -4.5)
+		(end 9.8 -4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0535dffd-3c4a-4178-87be-b510de2ddd33")
+	)
+	(fp_line
+		(start 9.8 -4.5)
+		(end 9.8 -2.515412)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2961d83-7512-4f87-8680-18c6493581a7")
+	)
+	(fp_line
+		(start 9.8 -2.515412)
+		(end 9.8 2.562281)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78d00d0a-3c0b-4a37-bb9e-de597cae6729")
+	)
+	(fp_line
+		(start 9.8 -2.515412)
+		(end 10.287 -2.515412)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2360b44-7663-4ff9-bc41-babe910443b3")
+	)
+	(fp_line
+		(start 9.8 2.562281)
+		(end 9.8 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad079457-46fa-44c2-87a6-17e2872326f8")
+	)
+	(fp_line
+		(start 9.8 4.5)
+		(end 8.1 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98a89467-bf1d-42ca-9e89-6f306742af3a")
+	)
+	(fp_line
+		(start 10.287 -2.515412)
+		(end 10.287 2.562281)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e14c1809-6cea-4536-959c-5ad964f8bd0f")
+	)
+	(fp_line
+		(start 10.287 2.562281)
+		(end 9.8 2.562281)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b344f36-3c58-478b-921f-d00723b1d637")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 2.032)
+		(layers "*.Cu" "*.Mask")
+		(uuid "53bbb4de-846d-48f5-ae2c-d3ce1c2de8dc")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.5 0)
+		(size 2.032 2.032)
+		(drill 2.032)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e5963bb0-ced2-4d21-90cc-af17d9036b8c")
+	)
+	(pad "GND" smd rect
+		(at 0 5.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "2689c584-5985-4b01-9292-e133abf2ae2a")
+	)
+	(pad "P$4" smd rect
+		(at 6.15 5.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "9d694025-d64a-4e41-b90a-5758a3d1f4a3")
+	)
+	(pad "VIN0" smd rect
+		(at 0 -5.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "725f8968-054e-4077-8645-3aa8c68dabe3")
+	)
+	(pad "VIN1" smd rect
+		(at 6.15 -5.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "e513889f-7fca-4ed4-b0ba-44e6877d9b02")
+	)
+)

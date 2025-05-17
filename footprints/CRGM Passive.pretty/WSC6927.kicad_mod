@@ -1,0 +1,125 @@
+(footprint "WSC6927"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wirewound Resistors, Precision Power\n\nSource: VISHAY wscwsn.pdf")
+	(property "Reference" "REF**"
+		(at -8.75 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "475f3b9b-4858-4939-9941-09ecd497f65e")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "WSC6927"
+		(at -8.75 5.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aac01ffa-d565-4cd7-a815-b50baa0af3f4")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "accd0d23-ce52-4a30-8ebb-1e07dd819fa5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a3c3eaa-fefb-41a4-b2bc-3596b5c43485")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54e008ee-c3b4-43c8-8f66-b817e0f11685")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -8.65 3.375)
+		(end 8.65 3.375)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95b5b63c-cdbc-44f0-8c5a-e432988066e8")
+	)
+	(fp_line
+		(start 8.65 -3.375)
+		(end -8.65 -3.375)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "585c3edb-9174-421d-ae45-1ec00b23ee9e")
+	)
+	(fp_line
+		(start -8.65 -3.375)
+		(end -8.65 3.375)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f87bd03e-92f9-4e2a-ae1a-2254d4a55a88")
+	)
+	(fp_line
+		(start 8.65 3.375)
+		(end 8.65 -3.375)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4033439-a9f0-44a8-9f32-8d8010310fc7")
+	)
+	(pad "1" smd rect
+		(at -7.95 -0.025)
+		(size 3.94 5.97)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "3880749d-05f4-4e56-be53-7e5ee4e33918")
+	)
+	(pad "2" smd rect
+		(at 7.95 0)
+		(size 3.94 5.97)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "141fbf41-dd68-4b6b-b70a-a8816dce7487")
+	)
+)

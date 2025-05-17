@@ -1,0 +1,129 @@
+(footprint "R1218"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CRCW1218 Thick Film, Rectangular Chip Resistors\n\nSource: http://www.vishay.com .. dcrcw.pdf")
+	(property "Reference" "REF**"
+		(at -2.54 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0d247208-8535-485d-97d0-d460e9010aff")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "R1218"
+		(at -2.54 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0a26e7e-2de2-4451-b800-39dcd54347a8")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "508ebb10-4dbf-4aad-be97-bc2565d7b3e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53a5a45a-fb4f-4a06-a862-1392d5fea5a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d556581-912e-44df-a0f6-5999a59fa760")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.913 2.219)
+		(end 0.939 2.219)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "166a4e68-2a71-444e-ac3c-7bf7f3041a43")
+	)
+	(fp_line
+		(start 0.913 -2.219)
+		(end -0.939 -2.219)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db2963db-3109-4387-813b-b1bde8a70bfb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.651 2.3) (xy -0.9009 2.3) (xy -0.9009 -2.3) (xy -1.651 -2.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "54749f84-2e5c-4200-bb35-5073e192fe88")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9144 2.3) (xy 1.6645 2.3) (xy 1.6645 -2.3) (xy 0.9144 -2.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "a094d632-a62f-4eba-82a1-555353982059")
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.05 4.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "5e38e537-1b05-46c6-813f-447b5b6fd15a")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.05 4.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "026db12e-34af-45a6-b7e8-b57faf4b09d4")
+	)
+)

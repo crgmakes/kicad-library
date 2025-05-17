@@ -4,9 +4,9 @@ This repo contains all the customized KiCad symbols, footprints, models, and oth
 
 ## Installation
 
-To install this library, start by [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the CRG Makes libary repo to a convienent local directory.
+To install this library, start by [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)     the CRG Makes libary repo to a convienent local directory.
 
-In this example, we will use: /Users/tom/Development/KiCad/CRGM/
+In this example, we will use: `/Users/tom/Development/KiCad/CRGM/`
 
 ## Basics
 
@@ -15,20 +15,13 @@ Within KiCad Project viewer, perform the following actions:
 1. Preferences->Configure Paths
 1. Click "+" near the bottom
 1. Type "KICAD_USER_LIBRARY" in the first cell
-1. Paste the local location repo's root directory (i.e., /Users/tom/Development/KiCad/CRGM/)
+1. Paste the local location repo's root directory (i.e., `/Users/tom/Development/KiCad/CRGM/`)
 1. Click "+" near the bottom
 1. In the first cell, type "KICAD_USER_MODEL_DIR"
 1. In the second cell, paste "${KICAD_USER_LIBRARY}/models"
 1. Click "+" near the bottom
 1. In the first cell, type "KICAD_USER_TEMPLATE_DIR"
 1. In the second cell, paste "${KICAD_USER_LIBRARY}/templates"
-1. Ensure your KiCad 3rd Party library is set to KICARD_USER_LIBRAY as well, as shown below.
-
-   > KICAD9_3RD_PARTY	${KICAD_USER_LIBRARY}
-
-<div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> Ensure your KiCad version is correct in the 3rd party library variable.
-</div>
 
 ## Schematic
 

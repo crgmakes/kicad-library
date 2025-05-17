@@ -1,0 +1,227 @@
+(footprint "JST04_1MM_VERT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Vertical Qwiic Connector\n\nPhysical and Electrical Charactersistics\n\n• Voltage Rating: 50V\n• Current Rating 1.0A\n• Contact Resistance: 20 milliohms\n• ROHS Compliant\n• SMD Pitch: 1mm\n• Small pad size: .6mm x 1.55mm\n• Large pad size: 1.2mm x 2.0mm")
+	(property "Reference" "REF**"
+		(at 0 -4.445 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da38af2e-385e-4b48-a9b5-ed880ca21b25")
+		(effects
+			(font
+				(size 0.560832 0.560832)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "JST04_1MM_VERT"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "61c54733-0647-4d0f-8fd0-143d137457e2")
+		(effects
+			(font
+				(size 0.560832 0.560832)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89a43cd9-dc28-4b1c-a47d-b339fb7da64e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af910b0a-8ffd-46ca-b2a0-96a695ae981b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8205c978-848f-4c22-bf4d-c1de927f9b81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.175 -1.397)
+		(end -3.175 -0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e24f13aa-ec13-4a64-a747-8131dc10b0e6")
+	)
+	(fp_line
+		(start -3.175 -0.635)
+		(end -2.413 -0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14136a32-c274-4ffd-912c-785f7461959e")
+	)
+	(fp_line
+		(start 1.905 -3.937)
+		(end -1.905 -3.937)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28c4bce7-6542-4e18-a9ef-147d0d1064f2")
+	)
+	(fp_line
+		(start 3.175 -1.397)
+		(end 3.175 -0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "148ca9f6-cce1-4229-b81a-abc7d44c4d91")
+	)
+	(fp_line
+		(start 3.175 -0.635)
+		(end 2.413 -0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "caf9cd9e-f63a-43f0-b5dd-1f739cfec23a")
+	)
+	(fp_line
+		(start -3.3 -3.5)
+		(end -3.3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0308784-9786-44ca-9443-cd7298bac8b0")
+	)
+	(fp_line
+		(start -3.3 -3)
+		(end -3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1462f3f1-07b0-42e9-ab3d-b00b7bce5ac2")
+	)
+	(fp_line
+		(start -3 -3.5)
+		(end -3.3 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ad5dd6b-801b-442b-8fed-8cb827b1461f")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3.3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "657f7fc0-17c9-400f-a98e-303920aceef4")
+	)
+	(fp_line
+		(start 3.3 -3.5)
+		(end 3 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "478aed2c-049b-4cd3-93ff-8515bbe95343")
+	)
+	(fp_line
+		(start 3.3 -3)
+		(end 3.3 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "827eb40c-8d71-4ca8-8021-ecda4290134f")
+	)
+	(pad "1" smd rect
+		(at -1.5 -0.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "ddc4b347-07e0-4c2e-9694-760d0027b5fb")
+	)
+	(pad "2" smd rect
+		(at -0.5 -0.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d5657a30-e9d7-4113-af8a-1f97c6593004")
+	)
+	(pad "3" smd rect
+		(at 0.5 -0.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b50f9e63-b2c5-481e-abc8-61eb5c99bd61")
+	)
+	(pad "4" smd rect
+		(at 1.5 -0.775)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bbce3bf4-48db-445e-845f-a9248bd04f56")
+	)
+	(pad "NC1" smd rect
+		(at -2.8 -3.2)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "7e460993-2977-460d-bcc0-6eceb7f432de")
+	)
+	(pad "NC2" smd rect
+		(at 2.8 -3.2)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "824c255c-93a2-47df-ba2d-38c579e1e839")
+	)
+)
