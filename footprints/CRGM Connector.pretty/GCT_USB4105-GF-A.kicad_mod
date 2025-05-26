@@ -54,8 +54,8 @@
 		)
 	)
 	(fp_line
-		(start -4.47 -2.9)
-		(end -4.47 -1.1)
+		(start -4.47 -2.825)
+		(end -4.47 -1.2)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "05a27d61-6118-4d5d-952e-29c3642c6bbd")
 	)
 	(fp_line
-		(start -4.47 1.1)
-		(end -4.47 1.5)
+		(start -4.47 1.2)
+		(end -4.47 2.2)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -74,24 +74,24 @@
 		(uuid "c56321a6-108f-4356-b20b-40ff847ca4c1")
 	)
 	(fp_line
-		(start 4.47 -2.9)
-		(end 4.47 -1.1)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9a5632ef-ea59-428f-a4ee-24fd4475420b")
-	)
-	(fp_line
-		(start 4.47 1.5)
-		(end 4.47 1.1)
+		(start 4.47 2.2)
+		(end 4.47 1.2)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "6bc0da3a-43f9-4c1b-942b-3dfd622f63c3")
+	)
+	(fp_line
+		(start 4.475 -2.8)
+		(end 4.475 -1.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a5632ef-ea59-428f-a4ee-24fd4475420b")
 	)
 	(fp_circle
 		(center -3.85 -5.7)
@@ -331,7 +331,7 @@
 	(pad "S1" thru_hole oval
 		(at -4.32 -4.18)
 		(size 1 2.1)
-		(drill oval 0.6 1.7)
+		(drill oval 0.61 1.7)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
@@ -340,7 +340,7 @@
 	(pad "S1" thru_hole oval
 		(at -4.32 0)
 		(size 1 1.8)
-		(drill oval 0.6 1.4)
+		(drill oval 0.61 1.4)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
@@ -349,7 +349,7 @@
 	(pad "S1" thru_hole oval
 		(at 4.32 -4.18)
 		(size 1 2.1)
-		(drill oval 0.6 1.7)
+		(drill oval 0.61 1.7)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
@@ -358,7 +358,7 @@
 	(pad "S1" thru_hole oval
 		(at 4.32 0)
 		(size 1 1.8)
-		(drill oval 0.6 1.4)
+		(drill oval 0.61 1.4)
 		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
