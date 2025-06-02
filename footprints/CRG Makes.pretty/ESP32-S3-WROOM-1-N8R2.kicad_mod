@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "ESP32-S3 Module\n\n• 240MHz\n• 8MB Flash\n• 2MB PSRAM\n• Integrated Antenna")
 	(property "Reference" "REF**"
-		(at -9.623 15.202 0)
+		(at -1.35 -0.45 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ad29f230-4188-45bf-986a-c5742182d957")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "ESP32-S3-WROOM-1-N8R2"
-		(at -9.623 17.159 0)
+		(at -9.85 15.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3a6157b2-639b-462a-a6b8-dd321a512e49")
@@ -54,18 +54,9 @@
 			)
 		)
 	)
+	(attr smd)
 	(fp_line
-		(start -9 -6.781)
-		(end 9 -6.781)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "530ce755-321e-4ff6-8001-a1fd2a47965a")
-	)
-	(fp_line
-		(start -9 -6.731)
+		(start -9 -6.3405)
 		(end -9 -5.95)
 		(stroke
 			(width 0.2032)
@@ -73,6 +64,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "7334e3d1-bad0-431a-9cdc-fe1698a14c36")
+	)
+	(fp_line
+		(start -9 -6.3405)
+		(end 9 -6.3405)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "530ce755-321e-4ff6-8001-a1fd2a47965a")
 	)
 	(fp_line
 		(start -9 12.02)
@@ -95,7 +96,7 @@
 		(uuid "2b23e7cc-5d25-4b2c-b0a6-d5ff52c0136b")
 	)
 	(fp_line
-		(start 9 -6.781)
+		(start 9 -6.3405)
 		(end 9 -5.95)
 		(stroke
 			(width 0.2032)
@@ -125,8 +126,8 @@
 		(uuid "a54c9995-96c7-4eea-88a7-06e4d44914ed")
 	)
 	(fp_circle
-		(center -9.438 -6.276)
-		(end -9.3364 -6.276)
+		(center -9.438 -6.2)
+		(end -9.3364 -6.2)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -246,8 +247,8 @@
 		(uuid "a84bb756-814a-4370-9926-c225fcb89f6c")
 	)
 	(fp_circle
-		(center -9.438 -6.276)
-		(end -9.3364 -6.276)
+		(center -9.438 -6.2)
+		(end -9.3364 -6.2)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -883,7 +884,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/ESP32-S3-WROOM-1-N4R2.step"
+	(model "${KICAD_USER_MODEL_DIR}/ESP32-S3-WROOM-1-N4R2.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a0bb9a74-caea-4511-b675-02e1ba4549bd")
+	(uuid "519a44e7-5844-43d0-a66d-1302500ef6ab")
 	(paper "A4")
 	(lib_symbols
 		(symbol "CRGM Power:LM66200DRLR"
@@ -1084,16 +1084,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.6"
-			(at 51.308 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Mouser" "595-LM66200DRLR"
 			(at 41.402 105.41 0)
 			(effects
@@ -1115,6 +1105,25 @@
 		)
 		(property "LCSC" "C3235556"
 			(at 49.784 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.6"
+			(at 51.308 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

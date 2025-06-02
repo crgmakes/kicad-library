@@ -1500,7 +1500,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "IN"
@@ -1518,7 +1518,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 0 0)
 				(length 2.54)
 				(name "GND"
@@ -1536,7 +1536,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "~{EN}"
@@ -1554,7 +1554,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OUT"
@@ -1572,7 +1572,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "ST"
@@ -1859,7 +1859,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 0)
 				(name "K1"
@@ -1877,7 +1877,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 0)
 				(name "K2"
@@ -2164,7 +2164,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 0)
 				(name "K1"
@@ -2182,7 +2182,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 0)
 				(name "K2"
@@ -2469,7 +2469,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 0)
 				(name "K1"
@@ -2487,7 +2487,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 0)
 				(name "K2"

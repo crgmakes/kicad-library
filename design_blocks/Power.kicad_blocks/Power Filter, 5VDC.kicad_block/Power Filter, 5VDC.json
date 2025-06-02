@@ -1,0 +1,5 @@
+{
+"description": "Basic single stage low pass Pi filter for 5VDC. Can be used with any DC voltage below 12VDC. Change values for higher voltages.",
+"keywords": "power, filtering, low pass, 5v",
+"fields": {}
+}

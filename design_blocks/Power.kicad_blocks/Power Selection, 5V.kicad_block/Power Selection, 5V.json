@@ -1,0 +1,5 @@
+{
+"description": "Selects between two 5V power sources. Provides reverse polarity protection as well.",
+"keywords": "power, selection, 5v",
+"fields": {}
+}
