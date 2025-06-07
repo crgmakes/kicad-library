@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "ESP32-S3 Module\n\n• 240MHz\n• 8MB Flash\n• 2MB PSRAM\n• Integrated Antenna")
+	(descr "ESP32-S3 Module")
 	(property "Reference" "REF**"
 		(at -1.35 -0.45 0)
 		(unlocked yes)
@@ -30,7 +30,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "RF Module, ESP32-S3 SoC"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -51,6 +51,66 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "ESP32-S3-WROOM-1-N8R2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "15c3e22b-d98e-4402-b1bb-aa81c0ee078a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Mouser" "356-ESP32-S3WRM1N8R2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fe58917a-d6b2-46ff-a344-744cddf1944c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Digikey" "5407-ESP32-S3-WROOM-1-N8R2-ND"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2523cd2a-f8c9-4548-9b12-5b0f88d98110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "LCSC" "C2913204"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "435d14b5-713e-4941-9a59-7f39dd734063")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MN" "Espressif Systems"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "215042db-e56a-4478-871c-2e52b88dbdef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
