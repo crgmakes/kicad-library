@@ -212,7 +212,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
+		(property "MPN" "SM04B-SRSS-TBT(LF)(SN)"
 			(at 3.81 -18.542 0)
 			(effects
 				(font
@@ -221,7 +221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "306-BM04BSRSSTBTLFSN"
+		(property "Mouser" "306-SM04BSRSSTBTLFSN"
 			(at 3.556 -21.082 0)
 			(effects
 				(font
@@ -230,7 +230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+		(property "Digikey" "455-SM04B-SRSS-TBTR-ND"
 			(at 3.556 -23.368 0)
 			(effects
 				(font
@@ -241,6 +241,15 @@
 		)
 		(property "LCSC" "C2763614"
 			(at 3.048 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "aquarius, power, connector"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1838,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
+		(property "Footprint" "CRGM Connector:BM04B-SRSS-TB"
 			(at 3.048 -13.716 0)
 			(effects
 				(font
@@ -5285,8 +5294,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CRGM Connector:SM04B-SRSS-TB"
-			(at 6.604 5.588 0)
+		(property "Footprint" "CRGM Connector:BM04B-SRSS-TB"
+			(at 4.572 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,8 +5312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SparkFun I2C Standard Qwiic Connector An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I2C devices to each other. The Qwiic system enables fast and solderless connection between popular platforms and various sensors and actuators.\n\nWe carry 200mm, 100mm, 50mm, and breadboard friendly Qwiic cables. We also offer 10 pcs strips the SMD connectors."
-			(at 4.318 -18.034 0)
+		(property "Description" "I2C Qwiic Connector 1mm pitch JST"
+			(at 4.318 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,6 +5322,51 @@
 			)
 		)
 		(property "MN" "JST"
+			(at 4.318 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TBT(LF)(SN)"
+			(at 4.572 -20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
+			(at 5.08 -22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+			(at 5.588 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2919601"
+			(at 4.826 -26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "qwiic, i2c connector, sparkfun"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5321,171 +5375,52 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SM04B-SRSS-TB"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "QWIIC_0_1"
+			(rectangle
+				(start 0 0)
+				(end 7.62 -12.7)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(fill
+					(type none)
 				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2763614"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(symbol "QWIIC_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -12.7)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -2.54) (xy 7.62 -2.54)
-				)
-				(stroke
-					(width 0.6096)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -5.08) (xy 7.62 -5.08)
-				)
-				(stroke
-					(width 0.6096)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -7.62) (xy 7.62 -7.62)
-				)
-				(stroke
-					(width 0.6096)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.35 -10.16) (xy 7.62 -10.16)
-				)
-				(stroke
-					(width 0.6096)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -12.7) (xy 0 -12.7)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -12.7) (xy 8.89 0)
-				)
-				(stroke
-					(width 0.4064)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(text "SCL"
-				(at 0.508 -2.54 0)
+				(at 3.302 -2.54 0)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.25 1.25)
 					)
 					(justify left)
 				)
 			)
 			(text "SDA"
-				(at 0.508 -5.08 0)
+				(at 3.302 -5.08 0)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.25 1.25)
 					)
 					(justify left)
 				)
 			)
 			(text "VCC"
-				(at 0.508 -7.62 0)
+				(at 3.302 -7.62 0)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.25 1.25)
 					)
 					(justify left)
 				)
 			)
 			(text "GND"
-				(at 0.508 -10.16 0)
+				(at 3.302 -10.16 0)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.25 1.25)
 					)
 					(justify left)
 				)
