@@ -54,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.35 -1.05)
-		(end 0.35 -1.05)
+		(start -0.65 -1.15)
+		(end 0.65 -1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -64,28 +64,8 @@
 		(uuid "34cb038b-ab98-420a-8e59-8fb556e9253e")
 	)
 	(fp_line
-		(start -0.35 1.05)
-		(end -0.35 -1.05)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6825025a-4b3f-4d83-8f79-5f79a116f93e")
-	)
-	(fp_line
-		(start 0.35 -1.05)
-		(end 0.35 1.05)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "acd6afe7-f9a0-4755-89bc-3af5991b6d67")
-	)
-	(fp_line
-		(start 0.35 1.05)
-		(end -0.35 1.05)
+		(start 0.65 1.15)
+		(end -0.65 1.15)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -94,8 +74,8 @@
 		(uuid "5292e778-22e4-422a-8300-ba01ca962c82")
 	)
 	(fp_circle
-		(center -0.175 -0.875)
-		(end -0.075 -0.875)
+		(center -0.9 -1.25)
+		(end -0.8 -1.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -145,8 +125,8 @@
 		(uuid "30b24602-66d2-46e3-b5a5-1701acac4f2e")
 	)
 	(fp_line
-		(start -0.6 -1.05)
-		(end 0.6 -1.05)
+		(start -0.65 -1.1)
+		(end 0.65 -1.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -155,8 +135,8 @@
 		(uuid "aa04dcbb-22a9-41d4-9be7-2b256eceea7f")
 	)
 	(fp_line
-		(start -0.6 -0.55)
-		(end -0.1 -1.05)
+		(start -0.65 -0.5)
+		(end -0.05 -1.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -165,8 +145,8 @@
 		(uuid "f0c4e925-2e19-4d9f-b92c-8f29482e3e48")
 	)
 	(fp_line
-		(start -0.6 1.05)
-		(end -0.6 -1.05)
+		(start -0.65 1.1)
+		(end -0.65 -1.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -175,8 +155,8 @@
 		(uuid "09fa90c8-00c5-4176-bcd5-600d7289211a")
 	)
 	(fp_line
-		(start 0.6 -1.05)
-		(end 0.6 1.05)
+		(start 0.65 -1.1)
+		(end 0.65 1.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -185,8 +165,8 @@
 		(uuid "16d73743-908c-4aae-a687-58de8ee386a1")
 	)
 	(fp_line
-		(start 0.6 1.05)
-		(end -0.6 1.05)
+		(start 0.65 1.1)
+		(end -0.65 1.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -205,52 +185,60 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -0.838 -0.75 90)
-		(size 0.3 0.475)
+	(pad "1" smd roundrect
+		(at -0.74 -0.75 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "8ac117ce-2819-4233-845e-1591f7749e6f")
 	)
-	(pad "2" smd rect
-		(at -0.838 -0.25 90)
-		(size 0.3 0.475)
+	(pad "2" smd roundrect
+		(at -0.74 -0.25 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "7178ae1b-e3d8-4ac8-aa10-cc9f1b8ef671")
 	)
-	(pad "3" smd rect
-		(at -0.838 0.25 90)
-		(size 0.3 0.475)
+	(pad "3" smd roundrect
+		(at -0.74 0.25 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "b95b9abf-7bfd-4ff8-b008-bedd2722a249")
 	)
-	(pad "4" smd rect
-		(at -0.838 0.75 90)
-		(size 0.3 0.475)
+	(pad "4" smd roundrect
+		(at -0.74 0.75 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "4337b2ee-3eea-4655-9129-71e4ad7fd3bf")
 	)
-	(pad "5" smd rect
-		(at 0.838 0.75 90)
-		(size 0.3 0.475)
+	(pad "5" smd roundrect
+		(at 0.74 0.75 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "0b9c0c4d-462e-4bb2-809e-293383f3e0a0")
 	)
-	(pad "6" smd rect
-		(at 0.838 0.25 90)
-		(size 0.3 0.475)
+	(pad "6" smd roundrect
+		(at 0.74 0.25 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "cb76bf82-5791-439c-b27c-b25de0c11753")
 	)
-	(pad "7" smd rect
-		(at 0.838 -0.25 90)
-		(size 0.3 0.475)
+	(pad "7" smd roundrect
+		(at 0.74 -0.25 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "5a8989d7-1a5c-47d6-b879-66a3a673a570")
 	)
-	(pad "8" smd rect
-		(at 0.838 -0.75 90)
-		(size 0.3 0.475)
+	(pad "8" smd roundrect
+		(at 0.74 -0.75 90)
+		(size 0.3 0.67)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
 		(uuid "f9a3c8dc-38b5-4f7f-8e2e-3326ab4a095f")
 	)
 	(embedded_fonts no)
