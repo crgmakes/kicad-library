@@ -3267,34 +3267,28 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ESP32-S3-WROOM-1"
+	(symbol "ESP32-S3-WROOM-1-N8R2"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 34.1122 0)
+			(at -12.7 26.67 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
-					(thickness 0.3023)
-					(bold yes)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at -10.16 -35.56 0)
+		(property "Value" "ESP32-S3-WROOM-1-N8R2"
+			(at 14.986 26.67 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
-					(thickness 0.3023)
-					(bold yes)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Footprint" "CRG Makes:ESP32-S3-WROOM-1-N8R2"
-			(at 3.302 -38.354 0)
+			(at 0 -39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3296,52 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+			(at 0 -45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-S3 SoC, 8MB Flash, 2MB PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 0 -43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2913204"
+			(at 0 -54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "5407-ESP32-S3-WROOM-1-N8R2-ND"
+			(at 0 -49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "356-ESP32-S3WRM1N8R2"
+			(at 0 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna 8MB Flash 2MB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3311,8 +3350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf Data Sheet"
-			(at 10.922 -35.306 0)
+		(property "ki_fp_filters" "ESP32?S3?WROOM?1*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,14 +3359,35 @@
 				(hide yes)
 			)
 		)
-		(symbol "ESP32-S3-WROOM-1_1_0"
-			(polyline
-				(pts
-					(xy -10.16 33.02) (xy 10.16 33.02)
-				)
+		(symbol "ESP32-S3-WROOM-1-N8R2_0_0"
+			(rectangle
+				(start -12.7 25.4)
+				(end 12.7 -25.4)
 				(stroke
 					(width 0.254)
-					(type solid)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "PSRAM"
+				(at 5.08 2.54 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1-N8R2_0_1"
+			(polyline
+				(pts
+					(xy -8.763 17.018) (xy -7.493 17.018) (xy -7.493 18.796) (xy -8.763 18.796)
+				)
+				(stroke
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -3335,11 +3395,11 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -33.02) (xy -10.16 33.02)
+					(xy -8.763 9.398) (xy -7.493 9.398) (xy -7.493 11.176) (xy -8.763 11.176)
 				)
 				(stroke
-					(width 0.254)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -3347,11 +3407,11 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 33.02) (xy 10.16 -33.02)
+					(xy 7.493 -18.796) (xy 6.223 -18.796) (xy 6.223 -14.224) (xy 7.493 -14.224)
 				)
 				(stroke
-					(width 0.254)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -3359,19 +3419,45 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -33.02) (xy -10.16 -33.02)
+					(xy 7.62 -1.27) (xy 6.35 -1.27) (xy 6.35 6.35) (xy 7.62 6.35)
 				)
 				(stroke
-					(width 0.254)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1-N8R2_1_1"
+			(text "BOOT"
+				(at -4.826 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "STRAP"
+				(at -4.318 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "STRAP"
+				(at 3.048 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(pin input line
-				(at -15.24 27.94 0)
-				(length 5.08)
+				(at -15.24 22.86 0)
+				(length 2.54)
 				(name "EN"
 					(effects
 						(font
@@ -3388,44 +3474,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 22.86 0)
-				(length 5.08)
-				(name "RXD0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -15.24 20.32 0)
-				(length 5.08)
-				(name "TXD0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -15.24 15.24 0)
-				(length 5.08)
+				(at -15.24 17.78 0)
+				(length 2.54)
 				(name "IO0"
 					(effects
 						(font
@@ -3442,8 +3492,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 12.7 0)
-				(length 5.08)
+				(at -15.24 15.24 0)
+				(length 2.54)
 				(name "IO1"
 					(effects
 						(font
@@ -3460,8 +3510,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 10.16 0)
-				(length 5.08)
+				(at -15.24 12.7 0)
+				(length 2.54)
 				(name "IO2"
 					(effects
 						(font
@@ -3478,8 +3528,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 7.62 0)
-				(length 5.08)
+				(at -15.24 10.16 0)
+				(length 2.54)
 				(name "IO3"
 					(effects
 						(font
@@ -3496,8 +3546,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 5.08 0)
-				(length 5.08)
+				(at -15.24 7.62 0)
+				(length 2.54)
 				(name "IO4"
 					(effects
 						(font
@@ -3514,8 +3564,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 2.54 0)
-				(length 5.08)
+				(at -15.24 5.08 0)
+				(length 2.54)
 				(name "IO5"
 					(effects
 						(font
@@ -3532,8 +3582,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 0 0)
-				(length 5.08)
+				(at -15.24 2.54 0)
+				(length 2.54)
 				(name "IO6"
 					(effects
 						(font
@@ -3550,8 +3600,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -2.54 0)
-				(length 5.08)
+				(at -15.24 0 0)
+				(length 2.54)
 				(name "IO7"
 					(effects
 						(font
@@ -3568,8 +3618,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -5.08 0)
-				(length 5.08)
+				(at -15.24 -2.54 0)
+				(length 2.54)
 				(name "IO8"
 					(effects
 						(font
@@ -3586,8 +3636,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -7.62 0)
-				(length 5.08)
+				(at -15.24 -5.08 0)
+				(length 2.54)
 				(name "IO9"
 					(effects
 						(font
@@ -3604,8 +3654,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -10.16 0)
-				(length 5.08)
+				(at -15.24 -7.62 0)
+				(length 2.54)
 				(name "IO10"
 					(effects
 						(font
@@ -3622,8 +3672,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -12.7 0)
-				(length 5.08)
+				(at -15.24 -10.16 0)
+				(length 2.54)
 				(name "IO11"
 					(effects
 						(font
@@ -3640,8 +3690,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -15.24 0)
-				(length 5.08)
+				(at -15.24 -12.7 0)
+				(length 2.54)
 				(name "IO12"
 					(effects
 						(font
@@ -3658,8 +3708,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -17.78 0)
-				(length 5.08)
+				(at -15.24 -15.24 0)
+				(length 2.54)
 				(name "IO13"
 					(effects
 						(font
@@ -3676,8 +3726,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -20.32 0)
-				(length 5.08)
+				(at -15.24 -17.78 0)
+				(length 2.54)
 				(name "IO14"
 					(effects
 						(font
@@ -3694,8 +3744,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -22.86 0)
-				(length 5.08)
+				(at -15.24 -20.32 0)
+				(length 2.54)
 				(name "IO15"
 					(effects
 						(font
@@ -3712,8 +3762,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -25.4 0)
-				(length 5.08)
+				(at -15.24 -22.86 0)
+				(length 2.54)
 				(name "IO16"
 					(effects
 						(font
@@ -3729,9 +3779,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 30.48 180)
-				(length 5.08)
+			(pin power_in line
+				(at 0 27.94 270)
+				(length 2.54)
 				(name "3V3"
 					(effects
 						(font
@@ -3747,9 +3797,101 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -27.94 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 15.24 15.24 180)
-				(length 5.08)
+				(at 15.24 22.86 180)
+				(length 2.54)
+				(name "TXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 20.32 180)
+				(length 2.54)
+				(name "RXD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 17.78 180)
+				(length 2.54)
 				(name "IO17"
 					(effects
 						(font
@@ -3766,8 +3908,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 12.7 180)
-				(length 5.08)
+				(at 15.24 15.24 180)
+				(length 2.54)
 				(name "IO18"
 					(effects
 						(font
@@ -3784,9 +3926,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 10.16 180)
-				(length 5.08)
-				(name "IO19"
+				(at 15.24 12.7 180)
+				(length 2.54)
+				(name "USB_D-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3800,11 +3942,12 @@
 						)
 					)
 				)
+				(alternate "IO19" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 15.24 7.62 180)
-				(length 5.08)
-				(name "IO20"
+				(at 15.24 10.16 180)
+				(length 2.54)
+				(name "USB_D+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3818,10 +3961,11 @@
 						)
 					)
 				)
+				(alternate "IO20" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 15.24 5.08 180)
-				(length 5.08)
+				(at 15.24 7.62 180)
+				(length 2.54)
 				(name "IO21"
 					(effects
 						(font
@@ -3838,8 +3982,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 2.54 180)
-				(length 5.08)
+				(at 15.24 5.08 180)
+				(length 2.54)
 				(name "IO35"
 					(effects
 						(font
@@ -3856,8 +4000,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 0 180)
-				(length 5.08)
+				(at 15.24 2.54 180)
+				(length 2.54)
 				(name "IO36"
 					(effects
 						(font
@@ -3874,8 +4018,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -2.54 180)
-				(length 5.08)
+				(at 15.24 0 180)
+				(length 2.54)
 				(name "IO37"
 					(effects
 						(font
@@ -3892,8 +4036,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -5.08 180)
-				(length 5.08)
+				(at 15.24 -2.54 180)
+				(length 2.54)
 				(name "IO38"
 					(effects
 						(font
@@ -3910,8 +4054,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -7.62 180)
-				(length 5.08)
+				(at 15.24 -5.08 180)
+				(length 2.54)
 				(name "IO39"
 					(effects
 						(font
@@ -3928,8 +4072,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -10.16 180)
-				(length 5.08)
+				(at 15.24 -7.62 180)
+				(length 2.54)
 				(name "IO40"
 					(effects
 						(font
@@ -3946,8 +4090,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -12.7 180)
-				(length 5.08)
+				(at 15.24 -10.16 180)
+				(length 2.54)
 				(name "IO41"
 					(effects
 						(font
@@ -3964,8 +4108,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -15.24 180)
-				(length 5.08)
+				(at 15.24 -12.7 180)
+				(length 2.54)
 				(name "IO42"
 					(effects
 						(font
@@ -3982,8 +4126,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -17.78 180)
-				(length 5.08)
+				(at 15.24 -15.24 180)
+				(length 2.54)
 				(name "IO45"
 					(effects
 						(font
@@ -4000,8 +4144,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -20.32 180)
-				(length 5.08)
+				(at 15.24 -17.78 180)
+				(length 2.54)
 				(name "IO46"
 					(effects
 						(font
@@ -4018,8 +4162,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -22.86 180)
-				(length 5.08)
+				(at 15.24 -20.32 180)
+				(length 2.54)
 				(name "IO47"
 					(effects
 						(font
@@ -4036,8 +4180,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -25.4 180)
-				(length 5.08)
+				(at 15.24 -22.86 180)
+				(length 2.54)
 				(name "IO48"
 					(effects
 						(font
@@ -4053,9 +4197,542 @@
 					)
 				)
 			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ESP32-S3-WROOM-1U-N8R2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-S3-WROOM-1U-N8R2"
+			(at 15.494 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRG Makes:ESP32-S3-WROOM-1U"
+			(at 0 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+			(at 0 -44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-S3 SoC, 8MB Flash, 2MB PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, External antenna, SMD"
+			(at 0 -42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3013944"
+			(at 0 -53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1965-ESP32-S3-WROOM-1U-N8R2TR-ND"
+			(at 0 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "356-ESP32S3WRM1UN8R2"
+			(at 0.254 -51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RF Radio BT ESP ESP32-S3 Espressif external antenna"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "ESP32?S3?WROOM?1*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1U-N8R2_0_0"
+			(rectangle
+				(start -12.7 25.4)
+				(end 12.7 -25.4)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "PSRAM"
+				(at 5.08 2.54 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1U-N8R2_0_1"
+			(polyline
+				(pts
+					(xy -8.636 17.018) (xy -7.366 17.018) (xy -7.366 18.796) (xy -8.636 18.796)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.636 9.398) (xy -7.366 9.398) (xy -7.366 11.176) (xy -8.636 11.176)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -1.27) (xy 6.35 -1.27) (xy 6.35 6.35) (xy 7.62 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -18.796) (xy 6.35 -18.796) (xy 6.35 -14.224) (xy 7.62 -14.224)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1U-N8R2_1_1"
+			(text "BOOT"
+				(at -4.699 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "STRAP"
+				(at -4.191 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "STRAP"
+				(at 3.175 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 22.86 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
+				(at -15.24 17.78 0)
+				(length 2.54)
+				(name "IO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 15.24 0)
+				(length 2.54)
+				(name "IO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 12.7 0)
+				(length 2.54)
+				(name "IO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 10.16 0)
+				(length 2.54)
+				(name "IO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "IO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 5.08 0)
+				(length 2.54)
+				(name "IO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 2.54 0)
+				(length 2.54)
+				(name "IO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "IO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -2.54 0)
+				(length 2.54)
+				(name "IO8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -5.08 0)
+				(length 2.54)
+				(name "IO9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "IO10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -10.16 0)
+				(length 2.54)
+				(name "IO11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -12.7 0)
+				(length 2.54)
+				(name "IO12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -15.24 0)
+				(length 2.54)
+				(name "IO13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -17.78 0)
+				(length 2.54)
+				(name "IO14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -20.32 0)
+				(length 2.54)
+				(name "IO15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -22.86 0)
+				(length 2.54)
+				(name "IO16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 27.94 270)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -27.94 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -4066,14 +4743,15 @@
 				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
+			(pin passive line
+				(at 0 -27.94 90)
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -4084,14 +4762,15 @@
 				(number "40"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
+			(pin passive line
+				(at 0 -27.94 90)
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -4099,370 +4778,354 @@
 						)
 					)
 				)
-				(number "41_1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_10"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 22.86 180)
+				(length 2.54)
+				(name "TXD0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_11"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_12"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 20.32 180)
+				(length 2.54)
+				(name "RXD0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_13"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_14"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 17.78 180)
+				(length 2.54)
+				(name "IO17"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_15"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_16"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 15.24 180)
+				(length 2.54)
+				(name "IO18"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_17"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_18"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 12.7 180)
+				(length 2.54)
+				(name "USB_D-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_19"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
+				(alternate "IO19" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 10.16 180)
+				(length 2.54)
+				(name "USB_D+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_20"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_21"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
+				(alternate "IO20" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 7.62 180)
+				(length 2.54)
+				(name "IO21"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_4"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 5.08 180)
+				(length 2.54)
+				(name "IO35"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_5"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_6"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(name "IO36"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_7"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_8"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
 			)
 			(pin bidirectional line
-				(at 15.24 -30.48 180)
-				(length 5.08)
-				(name "GND"
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "IO37"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41_9"
+				(number "30"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "IO38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -5.08 180)
+				(length 2.54)
+				(name "IO39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -7.62 180)
+				(length 2.54)
+				(name "IO40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "IO41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -12.7 180)
+				(length 2.54)
+				(name "IO42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -15.24 180)
+				(length 2.54)
+				(name "IO45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -17.78 180)
+				(length 2.54)
+				(name "IO46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -20.32 180)
+				(length 2.54)
+				(name "IO47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 -22.86 180)
+				(length 2.54)
+				(name "IO48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)

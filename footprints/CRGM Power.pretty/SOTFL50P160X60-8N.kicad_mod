@@ -6,13 +6,13 @@
 	(descr "DRL0008A")
 	(tags "TI, ideal diode, dual, sot-583")
 	(property "Reference" "U**"
-		(at 0.65 -2.3 0)
+		(at 0.75 -1.9 0)
 		(layer "F.SilkS")
 		(uuid "9f5c8e5b-2a8a-4c28-a1c3-77218c1def00")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -175,13 +175,13 @@
 		(uuid "73ce3b45-79bc-4cd7-a5d0-ca6ad6285d5c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.5 2.25 0)
+		(at 0.65 -2 0)
 		(layer "F.Fab")
 		(uuid "d3e78d1b-61f7-4a92-addb-325271fc831b")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

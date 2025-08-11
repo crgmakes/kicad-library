@@ -1703,7 +1703,7 @@
 			(at -7.62 6.35 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -1920,7 +1920,7 @@
 			(at -1.524 1.524 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.125)
 				)
 				(justify left bottom)
@@ -1930,7 +1930,7 @@
 			(at -5.08 -3.556 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.125)
 				)
 				(justify left bottom)
@@ -2204,10 +2204,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -2.032 1.524 0)
+			(at -1.778 1.524 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.1889)
 				)
 				(justify left bottom)
@@ -2217,7 +2217,7 @@
 			(at -5.08 -3.556 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.125)
 				)
 				(justify left bottom)
@@ -2512,7 +2512,7 @@
 			(at -1.524 1.524 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.125)
 				)
 				(justify left bottom)
@@ -2522,7 +2522,7 @@
 			(at -5.08 -3.556 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.125)
 				)
 				(justify left bottom)
@@ -2814,12 +2814,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -2.286 1.905 0)
+			(at -1.778 1.524 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
-					(thickness 0.3023)
-					(bold yes)
+					(size 1.27 1.27)
+					(thickness 0.1889)
 				)
 				(justify left bottom)
 			)
@@ -3942,9 +3941,8 @@
 			(at -7.62 -13.208 0)
 			(effects
 				(font
-					(size 1.778 1.778)
-					(thickness 0.3556)
-					(bold yes)
+					(size 1.27 1.27)
+					(thickness 0.2223)
 				)
 				(justify left top)
 			)

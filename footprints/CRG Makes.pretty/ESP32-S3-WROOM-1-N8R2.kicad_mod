@@ -5,14 +5,14 @@
 	(layer "F.Cu")
 	(descr "ESP32-S3 Module")
 	(property "Reference" "REF**"
-		(at -1.35 -0.45 0)
+		(at -1.5 -0.15 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "ad29f230-4188-45bf-986a-c5742182d957")
+		(uuid "c23ce6d2-8179-4acd-b392-71a287540ea7")
 		(effects
 			(font
-				(size 1.0795 1.0795)
-				(thickness 0.1905)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -21,7 +21,8 @@
 		(at -9.85 15.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3a6157b2-639b-462a-a6b8-dd321a512e49")
+		(hide yes)
+		(uuid "52dbd1d5-6fec-44aa-8001-7b1cd15723dc")
 		(effects
 			(font
 				(size 1.0795 1.0795)
@@ -34,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0c2ba2a-89e1-4fac-89c9-74f4f2e8a110")
+		(uuid "8a1b32c2-2181-4295-b2c7-2f73215c30fc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +47,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7347d5bc-a6d1-4b87-8a0e-481eebd1ed90")
+		(uuid "8c6ffa1c-c63a-40df-8eb0-da6b8344f1da")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -277,6 +278,106 @@
 		(uuid "2d76fd7d-76a5-4387-b89a-4b7aacca48ed")
 	)
 	(fp_line
+		(start -7.924998 11.3)
+		(end -7.25 11.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "16312043-fac2-44b1-8ecb-e6f993b5e416")
+	)
+	(fp_line
+		(start -7.25 10)
+		(end -7.925 10.000001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b3b8e6f7-25d6-4cab-9941-67cf707229db")
+	)
+	(fp_line
+		(start -7.25 11.3)
+		(end -7.25 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "34e8f007-b0db-42f4-956f-f1313e023b38")
+	)
+	(fp_line
+		(start -7 10.95)
+		(end -6.999999 11.675)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9fcf61b7-b751-4cd3-af9a-6a7138e6f379")
+	)
+	(fp_line
+		(start -5.7 10.95)
+		(end -7 10.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4a86a553-4a27-4066-b745-d6e7c429f0da")
+	)
+	(fp_line
+		(start -5.7 11.674999)
+		(end -5.7 10.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "055c7c12-edf0-4d16-9f26-4388d8ed07df")
+	)
+	(fp_line
+		(start 6.95 7.5)
+		(end 6.95 10.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "64883a0c-6eff-4910-b14b-f99903a1b46a")
+	)
+	(fp_line
+		(start 6.95 10.1)
+		(end 7.9 10.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c2e994d0-8518-4774-be87-0361d1aa7ab0")
+	)
+	(fp_line
+		(start 6.95 11.7)
+		(end 6.95 11.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0e830b61-67fc-4433-8add-a91a7c964d76")
+	)
+	(fp_line
+		(start 7.9 7.5)
+		(end 6.95 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8ffc7398-edca-476e-b2ca-e5279d454c15")
+	)
+	(fp_line
 		(start 9 -12.75)
 		(end 9 -6.75)
 		(stroke
@@ -317,6 +418,59 @@
 		(layer "F.Fab")
 		(uuid "3b098904-044d-48a6-9c9e-bb50932a590b")
 	)
+	(fp_text user "PSRAM"
+		(at 4.3 9.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "41c3bb65-d6da-43ac-9283-dda86f11f121")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.25 6 0)
+		(layer "F.Fab")
+		(uuid "6d61d1f3-945b-4d9f-90ca-64ead9179846")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "STRAP"
+		(at -6.95 10.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7006237b-3583-4a70-8194-9f38cc87e422")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "USB"
+		(at -7.85 9.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75777e10-5e8b-4371-8a49-b8776269d1aa")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "ANTENNA"
 		(at -3.992 -9.246 0)
 		(unlocked yes)
@@ -326,6 +480,20 @@
 			(font
 				(size 1.1684 1.1684)
 				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "STRAP"
+		(at 5.05 11.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c6a7366b-2536-41ed-9d00-b7e5c5fc7d7a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

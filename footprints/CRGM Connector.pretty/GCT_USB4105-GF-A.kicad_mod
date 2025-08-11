@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -5 -8 0)
+		(at -1.6 -5.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1e17c6da-81cc-4183-a7be-b57d5f772bf0")
@@ -20,6 +20,7 @@
 		(at -5 -6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ecf3d682-31a8-4b48-9c2b-3a6612891fe2")
 		(effects
 			(font
@@ -204,6 +205,17 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "a84bb8a8-6571-4c85-b8b6-eb768106b6b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.85 -6.4 0)
+		(layer "F.Fab")
+		(uuid "bb46710f-2a48-4dad-9982-f0ab2aaa18f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "PCB EDGE"
 		(at 5.4 2.5 0)

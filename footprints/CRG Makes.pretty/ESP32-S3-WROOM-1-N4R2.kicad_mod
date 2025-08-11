@@ -217,6 +217,106 @@
 		(uuid "30b97266-618e-41b1-912b-47adc149d8c5")
 	)
 	(fp_line
+		(start -7.924998 11.25)
+		(end -7.25 11.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0f8db0d9-f99b-47c9-ae49-25d6eaf3a958")
+	)
+	(fp_line
+		(start -7.25 9.95)
+		(end -7.925 9.950001)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "47d661eb-1046-491b-8489-a88e51e9d8e7")
+	)
+	(fp_line
+		(start -7.25 11.25)
+		(end -7.25 9.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e5dbdc8f-ddaa-42f1-8f86-1cfe28a452c3")
+	)
+	(fp_line
+		(start -7 10.9)
+		(end -6.999999 11.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "29876745-e34b-46a0-9161-efdfb1369966")
+	)
+	(fp_line
+		(start -5.7 10.9)
+		(end -7 10.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b83c3752-e495-4414-ae09-753b766f87ed")
+	)
+	(fp_line
+		(start -5.7 11.624999)
+		(end -5.7 10.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1465d0a2-84f3-4181-b597-0b770da9dbdf")
+	)
+	(fp_line
+		(start 6.95 7.45)
+		(end 6.95 10.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8e17f96b-4754-4051-b76f-ef959c4166f4")
+	)
+	(fp_line
+		(start 6.95 10.05)
+		(end 7.9 10.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c5ea34a1-6ca9-4b30-af7f-d63a4deb1411")
+	)
+	(fp_line
+		(start 6.95 11.65)
+		(end 6.95 11.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5b0244ad-f834-47c0-be19-3e62a0468ed1")
+	)
+	(fp_line
+		(start 7.9 7.45)
+		(end 6.95 7.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9cd9c366-9c40-4cea-82aa-c29926d7e5cf")
+	)
+	(fp_line
 		(start 9 -12.75)
 		(end 9 -6.75)
 		(stroke
@@ -257,6 +357,34 @@
 		(layer "F.Fab")
 		(uuid "eba30295-3393-419b-8c95-1af37b8ab1b4")
 	)
+	(fp_text user "USB"
+		(at -7.65 9.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c4ac709-7910-42e2-b4a1-f14e300f6de7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "PSRAM"
+		(at 4.3 9.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "493608c8-7c8a-4c47-b133-002fa026b38f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "ANTENNA"
 		(at -3.992 -9.246 0)
 		(unlocked yes)
@@ -266,6 +394,34 @@
 			(font
 				(size 1.1684 1.1684)
 				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "STRAP"
+		(at 5.05 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "65826280-1801-4fb9-af45-35894caae4b3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "STRAP"
+		(at -6.1 10.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "81e9e6fe-fe51-4cd6-9d8b-f0ae67b64701")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
