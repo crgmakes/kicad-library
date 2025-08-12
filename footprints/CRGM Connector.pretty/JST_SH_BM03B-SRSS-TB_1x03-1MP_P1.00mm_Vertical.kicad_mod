@@ -381,19 +381,7 @@
 		(uuid "4cbab918-5926-4984-8f55-2bfe78cf8b9d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical.wrl"
-		(hide yes)
-		(offset
-			(xyz -0.5 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/BM03B-SRSS-TB.step"
+	(model "${KICAD_USER_DIR}/Library/models/BM03B-SRSS-TB.step"
 		(offset
 			(xyz 0 -1.5 0)
 		)

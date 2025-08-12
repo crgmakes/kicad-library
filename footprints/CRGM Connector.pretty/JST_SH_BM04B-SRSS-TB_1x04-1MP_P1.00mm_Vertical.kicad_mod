@@ -468,19 +468,7 @@
 		(uuid "9cf6044a-210b-4625-b367-69f3bb8ed8cb")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/BM04B-SRSS-TB.step"
+	(model "${KICAD_USER_DIR}/Library/models/BM04B-SRSS-TB.step"
 		(offset
 			(xyz 0 -1.5 0)
 		)

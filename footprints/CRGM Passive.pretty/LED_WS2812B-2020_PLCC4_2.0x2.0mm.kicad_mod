@@ -217,7 +217,7 @@
 		(uuid "17aa91d4-0f0c-4ba8-9116-e7a4ff348a82")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.2 -2.15 0)
+		(at 3.15 -2.2 0)
 		(layer "F.Fab")
 		(uuid "c5756b5f-7ccc-4d42-872b-98775daca562")
 		(effects
@@ -252,7 +252,7 @@
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
+	(model "${KICAD_USER_DIR}/Library/models/WS2812-2020.step"
 		(offset
 			(xyz 0 0 0)
 		)
