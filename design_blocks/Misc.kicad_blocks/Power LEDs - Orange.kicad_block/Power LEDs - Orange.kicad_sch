@@ -334,7 +334,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Bridged"
+			(property "Value" "~"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -342,7 +342,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1182,7 +1182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRGM Connector:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 161.29 46.99 0)
 			(effects
 				(font
