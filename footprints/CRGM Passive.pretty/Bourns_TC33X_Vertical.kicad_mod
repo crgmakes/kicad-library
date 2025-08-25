@@ -128,7 +128,7 @@
 		(center 0 0)
 		(end 1.8 0)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill no)
@@ -253,8 +253,8 @@
 		(uuid "337921b0-b921-492f-8a62-cb7690893e69")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.105)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
