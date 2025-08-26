@@ -381,7 +381,7 @@
 		(uuid "4cbab918-5926-4984-8f55-2bfe78cf8b9d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_DIR}/Library/models/BM03B-SRSS-TB.step"
+	(model "${KICAD_USER_MODEL_DIR}/BM03B-SRSS-TB.step"
 		(offset
 			(xyz 0 -1.5 0)
 		)

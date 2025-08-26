@@ -252,7 +252,7 @@
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_DIR}/Library/models/WS2812-2020.step"
+	(model "${KICAD_USER_MODEL_DIR}/WS2812-2020.step"
 		(offset
 			(xyz 0 0 0)
 		)

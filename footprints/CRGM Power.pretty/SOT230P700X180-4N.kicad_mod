@@ -321,4 +321,15 @@
 		(uuid "e3e3d1ec-7384-4473-a9d6-2623e2d5cd67")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_MODEL_DIR}/LD1117S33TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
