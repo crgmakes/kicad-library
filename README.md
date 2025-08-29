@@ -6,7 +6,7 @@ This repo contains all the KiCad symbols, footprints, models, and other files su
 
 To install this library, start by [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the [CRG Makes libary](https://github.com/crgmakes/kicad-library) repo to a convienent local directory.
 
-In this example, our local directory will be: `/Users/tom/Development/KiCad/CRGM/`. 
+In this example, our local directory will be: `/Users/Development/KiCad/CRGM/`. 
 
 <div class="alert alert-info">
   <i class="fas fa-exclamation-triangle"></i> <strong>Note:</strong> Replace this value with absolute path of where you place <b><i>your</i></b> library.
@@ -28,7 +28,7 @@ Perform the following actions:
 
 1. Click "+" near the bottom
 1. Type "KICAD_USER_LIBRARY" in the first cell
-1. Paste the local location repo's root directory (i.e., `/Users/tom/Development/KiCad/CRGM/`)
+1. Paste the local location repo's root directory (i.e., `/Users/Development/KiCad/CRGM/`)
 1. Click "+" near the bottom
 1. In the first cell, type "KICAD_USER_MODEL_DIR"
 1. In the second cell, paste "${KICAD_USER_LIBRARY}/models"
