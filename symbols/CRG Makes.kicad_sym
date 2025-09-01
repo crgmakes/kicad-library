@@ -5154,7 +5154,7 @@
 			)
 		)
 		(property "Footprint" "CRG Makes:PWSON-N6"
-			(at 0 -25.4 0)
+			(at -0.254 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5163,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
-			(at 0 -22.606 0)
+			(at -0.254 -25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5172,7 @@
 			)
 		)
 		(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
-			(at 0 -20.066 0)
+			(at -0.254 -22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +5181,7 @@
 			)
 		)
 		(property "Digikey" "296-46272-2-ND"
-			(at 0 -29.464 0)
+			(at -0.254 -32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5190,7 @@
 			)
 		)
 		(property "Mouser" "595-HDC1080DMBR"
-			(at 0 -27.432 0)
+			(at -0.254 -29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5199,25 @@
 			)
 		)
 		(property "LCSC" "C82227"
-			(at 0 -30.988 0)
+			(at -0.254 -33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "TI"
+			(at 0 -18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HDC1080DMBR"
+			(at 0 -20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,15 +5226,6 @@
 			)
 		)
 		(property "ki_keywords" "Temperature Humidity Sensor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Package*SON:Texas*PWSON*N6*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8012,7 +8021,7 @@
 			)
 		)
 		(property "Footprint" "CRG Makes:LTR-303ALS-01"
-			(at 0 -22.352 0)
+			(at 0 -24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +8030,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf"
-			(at 0 -24.384 0)
+			(at 0 -26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8030,7 +8039,7 @@
 			)
 		)
 		(property "Description" "ambient light sensor, i2c interface, 0.01 to 64k lux, 2.4-3.6V"
-			(at 0 -26.67 0)
+			(at 0 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8048,7 @@
 			)
 		)
 		(property "Digikey" "160-2161-2-ND"
-			(at 0 -30.734 0)
+			(at 0 -33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8057,7 @@
 			)
 		)
 		(property "Mouser" "859-LTR-303ALS-01"
-			(at 0 -28.702 0)
+			(at 0 -31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +8066,25 @@
 			)
 		)
 		(property "LCSC" "C364577"
-			(at 0 -32.766 0)
+			(at 0 -35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "LiteOn"
+			(at 0 -21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTR-303ALS-01"
+			(at 0 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,15 +8093,6 @@
 			)
 		)
 		(property "ki_keywords" "ambient light sensor i2c"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Lite*On*LTR*303ALS*01*"
 			(at 0 0 0)
 			(effects
 				(font

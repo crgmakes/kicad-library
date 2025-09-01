@@ -1543,6 +1543,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Logos:CRGM Logo 7mm"
@@ -43509,6 +43510,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "CRGM Logos:Roxy 8mm"
