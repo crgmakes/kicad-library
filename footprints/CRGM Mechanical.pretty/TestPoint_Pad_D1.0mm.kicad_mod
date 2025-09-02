@@ -19,6 +19,7 @@
 	(property "Value" "TestPoint_Pad_D1.0mm"
 		(at 0 1.55 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a41410ba-6764-40d3-8271-3889cd1f68dc")
 		(effects
 			(font
