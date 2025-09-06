@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SOT523, https://www.diodes.com/assets/Package-Files/SOT523.pdf")
+	(descr "SOT-523")
 	(tags "SOT-523")
 	(property "Reference" "REF**"
 		(at 0 -1.7 0)
@@ -208,7 +208,7 @@
 		(uuid "b119f0c8-2364-4020-aabd-f01b47d0c559")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-523.step"
+	(model "${KICAD_USER_DIR}/Library/models/MMBT2222AT-7-F.step"
 		(offset
 			(xyz 0 0 0)
 		)
