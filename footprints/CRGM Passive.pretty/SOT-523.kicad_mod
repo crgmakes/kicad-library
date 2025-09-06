@@ -208,7 +208,7 @@
 		(uuid "b119f0c8-2364-4020-aabd-f01b47d0c559")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_DIR}/Library/models/MMBT2222AT-7-F.step"
+	(model "${KICAD_USER_MODEL_DIR}/MMBT2222AT-7-F.step"
 		(offset
 			(xyz 0 0 0)
 		)

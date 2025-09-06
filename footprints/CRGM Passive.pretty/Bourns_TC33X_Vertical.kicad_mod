@@ -277,7 +277,7 @@
 		(uuid "a1bbd6dc-d81b-49da-af73-b32329ec439e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_DIR}/Library/models/TC33X-2-105E.step"
+	(model "${KICAD_USER_MODEL_DIR}/TC33X-2-105E.step"
 		(offset
 			(xyz 0 0 0)
 		)

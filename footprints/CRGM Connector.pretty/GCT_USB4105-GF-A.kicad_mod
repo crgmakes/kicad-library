@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -1.6 -5.7 0)
+		(at -2.85 -0.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1e17c6da-81cc-4183-a7be-b57d5f772bf0")
@@ -207,7 +207,7 @@
 		(uuid "a84bb8a8-6571-4c85-b8b6-eb768106b6b0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.85 -6.4 0)
+		(at 2.425 -1.1 0)
 		(layer "F.Fab")
 		(uuid "bb46710f-2a48-4dad-9982-f0ab2aaa18f2")
 		(effects
@@ -365,15 +365,15 @@
 		(uuid "4a5437de-2a8c-4e4b-b01e-c220a28827f1")
 	)
 	(embedded_fonts no)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/USB4105-GF-A-060.stp"
+	(model "${KICAD_USER_MODEL_DIR}/USB4105-GF-A-060.step"
 		(offset
-			(xyz 0 -2.6 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

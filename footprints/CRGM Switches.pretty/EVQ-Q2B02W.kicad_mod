@@ -172,7 +172,7 @@
 		(uuid "0439ec97-fbc0-48f3-8f09-586b438ed1f2")
 	)
 	(embedded_fonts no)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/EVQ-Q2B02W.step"
+	(model "${KICAD_USER_MODEL_DIR}/EVQ-Q2B02W.step"
 		(offset
 			(xyz 0 0 0)
 		)

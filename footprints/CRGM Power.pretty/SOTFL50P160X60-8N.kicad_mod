@@ -242,7 +242,7 @@
 		(uuid "f9a3c8dc-38b5-4f7f-8e2e-3326ab4a095f")
 	)
 	(embedded_fonts no)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/LM66200DRLR.stp"
+	(model "${KICAD_USER_MODEL_DIR}/LM66200DRLR.stp"
 		(offset
 			(xyz 0 0.02999999888 0)
 		)

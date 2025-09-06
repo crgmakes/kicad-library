@@ -294,7 +294,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "181bbafe-47e3-4647-9f09-50b95dd1442e")
 	)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/XF2C_1415-1A.step"
+	(model "${KICAD_USER_MODEL_DIR}/XF2C_1415-1A.step"
 		(offset
 			(xyz 0 0 0)
 		)

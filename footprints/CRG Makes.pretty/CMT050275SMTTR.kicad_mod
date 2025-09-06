@@ -234,7 +234,7 @@
 		(uuid "eba060d4-530b-4118-9b5c-0218ad94f0c8")
 	)
 	(embedded_fonts no)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/CMT-0502-75-SMT-TR.stp"
+	(model "${KICAD_USER_MODEL_DIR}/CMT-0502-75-SMT-TR.step"
 		(offset
 			(xyz 0 0 0)
 		)

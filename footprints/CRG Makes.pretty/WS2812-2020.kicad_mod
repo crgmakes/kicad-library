@@ -149,7 +149,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "e034aa8d-984c-4883-8ab9-edf61d0fc6df")
 	)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/WS2812-2020.step"
+	(model "${KICAD_USER_MODEL_DIR}/WS2812-2020.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -6,7 +6,7 @@
 	(descr "JST SH series connector, BM06B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST SH vertical")
 	(property "Reference" "REF**"
-		(at 0 -3.3 0)
+		(at -1.125 -0.05 0)
 		(layer "F.SilkS")
 		(uuid "c748fabf-7af2-4afe-affa-ed9b229d0670")
 		(effects
@@ -19,6 +19,7 @@
 	(property "Value" "JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical"
 		(at 0 3.3 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a4ec7b53-ddd7-49f4-a92e-9137b596e596")
 		(effects
 			(font
@@ -455,7 +456,7 @@
 		(uuid "516c863a-1128-4df3-9091-a420d30e9667")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.8 0)
+		(at 2 -0.04 0)
 		(layer "F.Fab")
 		(uuid "6ce66b45-412e-4717-9587-a69c62c0b55c")
 		(effects
@@ -522,9 +523,9 @@
 		(uuid "90daba14-77ec-4061-be50-643a1d32705a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_DIR}/Library/models/BM06B-SRSS-TB.step"
+	(model "${KICAD_USER_MODEL_DIR}/BM06B-SRSS-TB.step"
 		(offset
-			(xyz 0 -1.5 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -125,7 +125,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "d42a4bc4-3d00-4fb7-bb02-9696eb19436e")
 	)
-	(model "/Users/tsasala/Development/pcb/KiCad/Models/MOV-20D331K.step"
+	(model "${KICAD_USER_MODEL_DIR}/MOV-20D331K.step"
 		(offset
 			(xyz 0 0 0)
 		)
