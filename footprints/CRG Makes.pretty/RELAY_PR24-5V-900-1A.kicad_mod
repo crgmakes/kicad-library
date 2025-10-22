@@ -1,17 +1,17 @@
 (footprint "RELAY_PR24-5V-900-1A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -13.7 -16.238 0)
+		(at -12.55 -13.05 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "220f50b2-6954-4c4d-a22f-7aea3a4f8e9f")
 		(effects
 			(font
-				(size 1.0795 1.0795)
-				(thickness 0.1905)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -20,25 +20,14 @@
 		(at -13.7 16.492 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ec761a19-612d-4d06-9d26-64b14c34993b")
 		(effects
 			(font
-				(size 1.0795 1.0795)
-				(thickness 0.1905)
-			)
-			(justify left top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d7b0e832-a0be-4b0b-8b8b-212d64cb140b")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify left top)
 		)
 	)
 	(property "Datasheet" ""
@@ -185,6 +174,19 @@
 		(layer "F.Fab")
 		(uuid "43108d1e-d898-45b6-8635-8261758ae13a")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -12.5 -13.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad24686c-3888-463c-93fa-ef25dcfc3317")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "A1" thru_hole circle
 		(at 4.6 9.16)
 		(size 1.65 1.65)
@@ -205,7 +207,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "f64dd5b7-802f-4ffb-9dba-07e9abca6cf3")
 	)
-	(pad "COM_1" thru_hole circle
+	(pad "COM1" thru_hole circle
 		(at -9.4 -3.5)
 		(size 3.116 3.116)
 		(drill 2.1)
@@ -215,7 +217,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "02ff28e4-f4bc-4d8c-a7c3-387e43a7530a")
 	)
-	(pad "COM_2" thru_hole circle
+	(pad "COM2" thru_hole circle
 		(at -0.5 11.7)
 		(size 3.116 3.116)
 		(drill 2.1)
@@ -235,6 +237,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "bce96d12-a9e7-4f46-8fc5-90b0bd0df936")
 	)
+	(embedded_fonts no)
 	(model "${KICAD_USER_MODEL_DIR}/PR24-5V-900-1A.step"
 		(offset
 			(xyz 0 0 0)

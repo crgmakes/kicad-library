@@ -19,6 +19,7 @@
 	(property "Value" "SOT-23"
 		(at 0 2.4 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "0c548e32-4816-4f34-8072-5e37bb3bfeb7")
 		(effects
 			(font
@@ -166,7 +167,7 @@
 		(uuid "81e3a181-9aa4-4ef8-9e92-2dfb3c40de54")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.4 0)
+		(at 2.575 -2.475 0)
 		(layer "F.Fab")
 		(uuid "0da9a566-37cf-40a1-ad78-96f890f59218")
 		(effects

@@ -19,6 +19,7 @@
 	(property "Value" "R_0603_1608Metric"
 		(at 0 1.43 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "d93f07e8-5ed2-4b8c-9f89-21fd08f33ce3")
 		(effects
 			(font

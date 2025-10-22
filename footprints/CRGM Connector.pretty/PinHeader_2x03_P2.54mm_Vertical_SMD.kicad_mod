@@ -19,6 +19,7 @@
 	(property "Value" "PinHeader_2x03_P2.54mm_Vertical_SMD"
 		(at 1 7.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "7628d19e-ed3f-4e5b-95b8-f52dec2ca845")
 		(effects
 			(font
@@ -223,7 +224,7 @@
 		(uuid "e0931c02-4ee4-4a6e-b9ad-499655d215c5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.35 9.9 180)
+		(at 3.92 -2.475 180)
 		(layer "F.Fab")
 		(uuid "ddf73a26-b15d-4361-9553-0c9b85a4c053")
 		(effects

@@ -17,8 +17,9 @@
 		)
 	)
 	(property "Value" "LED_0603_1608Metric"
-		(at 0 1.43 0)
+		(at -0.075 2.925 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ca292ff2-048e-4e07-8b61-1bd2ec94bab9")
 		(effects
 			(font
@@ -194,7 +195,7 @@
 		(uuid "4f79ddda-f4cb-4f09-aed3-0dac694a22de")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.05 1.475 0)
+		(at 2.875 -1.7 0)
 		(layer "F.Fab")
 		(uuid "9abba9d6-3a70-48a8-bec9-76b089c057ef")
 		(effects

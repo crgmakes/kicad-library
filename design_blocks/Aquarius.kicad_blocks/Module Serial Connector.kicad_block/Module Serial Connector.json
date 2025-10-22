@@ -1,5 +1,5 @@
 {
-"description": "Connector for module serial interface",
-"keywords": "module, serial, connector",
+"description": "Serial connector for Aquarius Module",
+"keywords": "aquarius, module, serial, connector",
 "fields": {}
 }

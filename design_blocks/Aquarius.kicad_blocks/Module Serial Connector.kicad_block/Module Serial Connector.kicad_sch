@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "26505a7b-19c3-4fae-95fa-8ad65d89c284")
+	(uuid "02b60f5d-06c9-4ab2-9cc1-14d7e8deab36")
 	(paper "A4")
 	(lib_symbols
 		(symbol "CRGM Connector:JST-SH-3"
@@ -13,9 +13,8 @@
 				(at 0 2.794 0)
 				(effects
 					(font
-						(size 1.778 1.778)
-						(thickness 0.3556)
-						(bold yes)
+						(size 1.27 1.27)
+						(thickness 0.1588)
 					)
 					(justify left bottom)
 				)
@@ -25,13 +24,13 @@
 				(effects
 					(font
 						(size 1.778 1.778)
-						(thickness 0.3556)
-						(bold yes)
+						(thickness 0.2223)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
 				(at 1.27 8.89 0)
 				(effects
 					(font
@@ -40,8 +39,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+				(at 0 -23.876 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -58,12 +57,49 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "MN" "JST"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BM04B-SRSS-TB"
+				(at 0 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+				(at 0 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "306-BM04BSRSSTBTLFSN"
+				(at 0 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2919601"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "JST-SH-3_1_0"
@@ -275,73 +311,73 @@
 		)
 	)
 	(rectangle
-		(start 215.9 92.075)
-		(end 251.46 123.825)
+		(start 178.69 19.05)
+		(end 228.6 67.31)
 		(stroke
-			(width 0)
+			(width 0.254)
 			(type dash)
 			(color 255 153 0 1)
 		)
 		(fill
 			(type none)
 		)
-		(uuid 1c4d295e-b147-4004-b39f-9c2376ed76e9)
+		(uuid 0e1a72f9-cd75-4f69-9786-85df6ee9158b)
 	)
 	(text "Serial Connector"
 		(exclude_from_sim no)
-		(at 229.616 121.92 0)
+		(at 198.882 63.754 0)
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 3 3)
+				(thickness 0.6)
 				(bold yes)
 			)
 		)
-		(uuid "42bc3e58-659b-419e-9e06-7a5b9e153d30")
+		(uuid "e0d78ff4-3923-484f-af89-281d6d197d77")
 	)
 	(wire
 		(pts
-			(xy 234.95 101.6) (xy 238.76 101.6)
+			(xy 203.2 30.48) (xy 207.01 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e8018b1-106c-4a84-9652-d17402ecb66d")
+		(uuid "4d3d19a4-2dda-41cc-b5be-810b98d7a5fc")
 	)
 	(wire
 		(pts
-			(xy 238.76 107.95) (xy 238.76 106.68)
+			(xy 207.01 36.83) (xy 207.01 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5631a4e4-3440-48f2-9a0c-e2f36f48074d")
+		(uuid "8e57b162-f52f-4135-9d15-ddadd7f41e88")
 	)
 	(wire
 		(pts
-			(xy 234.95 104.14) (xy 238.76 104.14)
+			(xy 203.2 33.02) (xy 207.01 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64edf437-eb52-4cbd-a1d2-6251902455fb")
+		(uuid "9ab22fe0-b6ca-4632-b41d-bbb738ce0b16")
 	)
 	(wire
 		(pts
-			(xy 238.76 106.68) (xy 234.95 106.68)
+			(xy 207.01 35.56) (xy 203.2 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b94ffe0f-24e5-44a3-991e-1de1bee67f88")
+		(uuid "e50b2251-8a2a-4801-abda-5f7d80a3d161")
 	)
-	(global_label "RXD"
-		(shape output)
-		(at 238.76 104.14 0)
+	(global_label "TXD"
+		(shape input)
+		(at 207.01 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -349,9 +385,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2d0fa781-cfef-4561-b216-b6f7e07f6900")
+		(uuid "cbea4179-fafb-454e-b45a-48995f6fddc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.4947 104.14 0)
+			(at 213.4423 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,9 +396,9 @@
 			)
 		)
 	)
-	(global_label "TXD"
-		(shape input)
-		(at 238.76 101.6 0)
+	(global_label "RXD"
+		(shape output)
+		(at 207.01 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -370,9 +406,9 @@
 			)
 			(justify left)
 		)
-		(uuid "db3affe8-f0ae-44f5-a5a4-808bb80a45a7")
+		(uuid "cf055eff-1ff5-4b5b-8a58-71468bf1b588")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.1923 101.6 0)
+			(at 213.7447 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +419,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 107.95 0)
+		(at 207.01 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -391,7 +427,7 @@
 		(dnp no)
 		(uuid "39d194cc-db87-471c-b068-07b83da65293")
 		(property "Reference" "#PWR023"
-			(at 238.76 114.3 0)
+			(at 207.01 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +436,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 111.506 0)
+			(at 207.01 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,7 +444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 107.95 0)
+			(at 207.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,7 +453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 107.95 0)
+			(at 207.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +462,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 107.95 0)
+			(at 207.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +475,7 @@
 		)
 		(instances
 			(project "relay-module"
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/8c24c56f-0d3c-42c7-983e-10b8f8d78981"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -448,7 +484,7 @@
 	)
 	(symbol
 		(lib_id "CRGM Connector:JST-SH-3")
-		(at 232.41 101.6 0)
+		(at 200.66 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -457,7 +493,7 @@
 		(dnp no)
 		(uuid "9703844a-c078-4497-807b-99b6c90d25cc")
 		(property "Reference" "J5"
-			(at 232.41 98.806 0)
+			(at 200.66 27.686 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -468,7 +504,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 232.41 112.014 0)
+			(at 200.66 40.894 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -476,10 +512,11 @@
 					(bold yes)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
-			(at 231.14 92.71 0)
+		(property "Footprint" "CRGM Connector:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 199.39 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,8 +524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 232.41 101.6 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +534,7 @@
 			)
 		)
 		(property "Description" "JST SH 1.0mm 3 Position"
-			(at 230.378 95.25 0)
+			(at 198.628 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +543,7 @@
 			)
 		)
 		(property "MN" "JST"
-			(at 232.41 101.6 0)
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,8 +551,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BM03B-SRSS-TB"
-			(at 232.41 101.6 0)
+		(property "MPN" "BM04B-SRSS-TB"
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,8 +560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" ""
-			(at 232.41 101.6 0)
+		(property "Digikey" "455-BM04B-SRSS-TBTR-ND"
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,8 +569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 232.41 101.6 0)
+		(property "Mouser" "306-BM04BSRSSTBTLFSN"
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,8 +578,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2919600"
-			(at 232.41 101.6 0)
+		(property "LCSC" "C2919601"
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,8 +597,8 @@
 			(uuid "a1fa8a6c-c4c5-4b18-bd9a-b56b47657f92")
 		)
 		(instances
-			(project ""
-				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf"
+			(project "relay-module"
+				(path "/445c1fff-2e1a-48b1-a91f-a137832edebf/8c24c56f-0d3c-42c7-983e-10b8f8d78981"
 					(reference "J5")
 					(unit 1)
 				)
