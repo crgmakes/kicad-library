@@ -282,7 +282,7 @@
 		(uuid "027a08eb-f951-4b52-b438-081a512c85e1")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"
+	(model "${KICAD_USER_DIR}/Library/models/SM06B-SRSS-TB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

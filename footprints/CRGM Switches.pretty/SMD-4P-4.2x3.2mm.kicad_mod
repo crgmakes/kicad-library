@@ -1,0 +1,234 @@
+(footprint "SMD-4P-4.2x3.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "J Lead 4.20mm x 3.20mm")
+	(tags "Switch")
+	(property "Reference" "SW**"
+		(at 0.275 -0.025 0)
+		(layer "F.SilkS")
+		(uuid "dbe7d3fb-83c2-450f-b853-38e4535c6c99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD-4P,4.2x3.2mm"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d50edb4b-4ac4-49c1-aea3-a68f430bc800")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430fd5e8-27c3-4568-96ad-0f6967062015")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD Switch, 4 Pin, 4.2mm x 3.2mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dad9c864-7967-4ac1-98ab-f68d3aefa6a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -0.4)
+		(end -2.1 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16c8b05f-6c1d-4dd2-b087-dc14c905f421")
+	)
+	(fp_line
+		(start -1.2 -1.6)
+		(end 1.2 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3629f3bb-0015-4491-b689-53172e0a0c27")
+	)
+	(fp_line
+		(start -1.2 1.6)
+		(end 1.2 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aea5e27-f611-4330-bf73-ac7888dc286b")
+	)
+	(fp_line
+		(start 2.1 -0.4)
+		(end 2.1 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67f054e8-0b63-43cc-a4a7-015de2969af5")
+	)
+	(fp_circle
+		(center -2.1 -1.685078)
+		(end -1.95 -1.685078)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "76ebd3d0-db8f-416a-a3e9-019fd065dda6")
+	)
+	(fp_line
+		(start -2.65 -1.75)
+		(end 2.65 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62a4c742-18b4-404c-bf79-0644e4a835b4")
+	)
+	(fp_line
+		(start -2.65 1.75)
+		(end -2.65 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ac1983f-88ae-46eb-a8a4-39cf02cdd551")
+	)
+	(fp_line
+		(start 2.65 -1.75)
+		(end 2.65 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71c3c1df-9a5a-4e39-82b9-b7617e47863c")
+	)
+	(fp_line
+		(start 2.65 1.75)
+		(end -2.65 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be0ba6e3-ee0d-471a-8552-09784b5f73b8")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4c592d1-eeb9-4f63-a6cb-540351a1f2d1")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed97c532-80c4-42fb-b64a-1c9b21b9e5ab")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06c9f6d2-4241-434d-b6f4-b979a7d6274b")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5470e774-82d2-49be-8972-28b2cf76e73a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.025 0)
+		(layer "F.Fab")
+		(uuid "e5ad4914-39cb-44de-a5f9-209013aabb77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.075 -1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a11be46a-1b58-4248-88b6-24bda1f0e6ed")
+	)
+	(pad "2" smd rect
+		(at 2.075 -1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ec884b36-297a-4b7d-9fdd-92da141b9387")
+	)
+	(pad "3" smd rect
+		(at -2.075 1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c10498b-f989-4b38-8135-de42d08b9ce2")
+	)
+	(pad "4" smd rect
+		(at 2.075 1.075 90)
+		(size 0.65 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5ea1027-e59d-4574-ae11-bcdf03828188")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_MODEL_DIR}/SKRPABE010.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
