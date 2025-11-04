@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "DFN6")
 	(tags "Integrated Circuit")
-	(property "Reference" "U**"
-		(at 0.35 -1.9 0)
+	(property "Reference" "REF**"
+		(at 0.55 -2.1 0)
 		(layer "F.SilkS")
 		(uuid "5dcc00a5-f840-4349-8ae1-d28603aa43ea")
 		(effects
@@ -54,30 +54,30 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.25 1.2)
-		(end 1.2 1.2)
+		(start -1.25 1.3)
+		(end 1.2 1.3)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "77e3c01d-4cf7-4717-be54-18b0d063aff2")
 	)
 	(fp_line
-		(start -0.425 -1.2)
-		(end 1.2 -1.2)
+		(start -0.425 -1.3)
+		(end 1.2 -1.3)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "7e02b1b8-25a4-4699-9370-393612cb9e07")
 	)
 	(fp_rect
-		(start -0.75 -1.2)
-		(end -0.55 -1)
+		(start -0.675 -1.425)
+		(end -0.475 -1.225)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill yes)

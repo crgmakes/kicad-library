@@ -56,50 +56,50 @@
 		)
 	)
 	(fp_line
-		(start -1.905 -0.635)
-		(end -1.651 -0.8128)
+		(start -1.905 -0.65)
+		(end -1.65 -0.825)
 		(stroke
-			(width 0.254)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "66c020e2-4c34-4acb-a7ee-f60235b4bb7c")
 	)
 	(fp_line
-		(start -1.905 0.80615)
+		(start -1.905 0.8)
 		(end -1.905 -0.635)
 		(stroke
-			(width 0.254)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "facca091-6d06-434c-b983-f56e726d9883")
 	)
 	(fp_line
-		(start -1.651 -0.8128)
-		(end 1.905 -0.816071)
+		(start -1.65 -0.825)
+		(end 1.905 -0.825)
 		(stroke
-			(width 0.254)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "09c6d27b-801b-412a-b65e-f85b5616ed59")
 	)
 	(fp_line
-		(start 1.905 -0.816071)
-		(end 1.905 0.80615)
+		(start 1.905 -0.825)
+		(end 1.905 0.8)
 		(stroke
-			(width 0.254)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "568f7658-b19c-41f9-b5ae-897604cf28a0")
 	)
 	(fp_line
-		(start 1.905 0.80615)
-		(end -1.905 0.80615)
+		(start 1.905 0.8)
+		(end -1.905 0.8)
 		(stroke
-			(width 0.254)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -145,6 +145,56 @@
 		(layer "F.CrtYd")
 		(uuid "e2351878-a172-4d17-ae2b-bb694a650df3")
 	)
+	(fp_line
+		(start -1.904 -0.65)
+		(end -1.65 -0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09568f8a-4a6e-4ef7-ad55-eb4e4b36139f")
+	)
+	(fp_line
+		(start -1.904 0.79395)
+		(end -1.904 -0.6472)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be80780d-473d-43f9-a6c3-9bc49aef8c47")
+	)
+	(fp_line
+		(start -1.65 -0.825)
+		(end 1.906 -0.825)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90e52c35-1e34-42ba-ab1e-1ed8a7e9d694")
+	)
+	(fp_line
+		(start 1.905 0.8)
+		(end -1.905 0.80605)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c0a46b8-1b36-4aff-a6fe-4a3d40991741")
+	)
+	(fp_line
+		(start 1.906 -0.825)
+		(end 1.906 0.79395)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59dc04eb-6017-4d98-a8f6-9d852bc81d84")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -2.85 -1.175 0)
 		(unlocked yes)
@@ -175,4 +225,15 @@
 		(uuid "8a0adb92-e88a-4207-941d-8f1d0c3c2696")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_DIR}/Library/models/BAT48JFILM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

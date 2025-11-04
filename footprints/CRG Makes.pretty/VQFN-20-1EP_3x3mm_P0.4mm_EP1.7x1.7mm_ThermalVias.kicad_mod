@@ -235,13 +235,13 @@
 		(uuid "bcf104e3-8e60-46e1-b25a-353c289ff386")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.05 4.05 0)
+		(at 0 -2.8 0)
 		(layer "F.Fab")
 		(uuid "ac94e6d0-7b88-41b6-a0a8-c62cbe1abb82")
 		(effects
 			(font
-				(size 0.75 0.75)
-				(thickness 0.11)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -562,7 +562,7 @@
 		(uuid "17dac28e-467c-4349-bb34-0a5f79f1cf5b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm.wrl"
+	(model "${KICAD_USER_DIR}/Library/models/ATTINY1616-MFR.step"
 		(offset
 			(xyz 0 0 0)
 		)

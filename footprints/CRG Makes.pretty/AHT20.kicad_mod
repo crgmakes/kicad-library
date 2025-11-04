@@ -1,0 +1,259 @@
+(footprint "AHT20"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "temperature humidity sensor")
+	(tags "AHT20-F ")
+	(property "Reference" "REF**"
+		(at 0.425 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed725920-058e-48ca-9065-88381f11cda1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AHT20"
+		(at 0 2.725 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "96333ecc-805e-4fbc-b746-03c01ce3a7dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://asairsensors.com/wp-content/uploads/2021/09/Data-Sheet-AHT20-Humidity-and-Temperature-Sensor-ASAIR-V1.0.03.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "868644ad-6374-470b-9c33-9e1099c226df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a647b7c6-11dc-4f76-836f-459ecc15bb31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6256 1.725)
+		(end 1.6256 1.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d6394c9-49b7-4e75-939d-51b952dbf1fc")
+	)
+	(fp_line
+		(start -1.625 -1.725)
+		(end -1.625 -1.9122)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "349ae819-58fa-4690-8491-6e726ce82e9c")
+	)
+	(fp_line
+		(start -1.375 -1.7244)
+		(end -1.625 -1.9122)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "688067b3-1a05-48c1-b304-360c2fadbfc9")
+	)
+	(fp_line
+		(start 1.6256 -1.725)
+		(end -1.625 -1.725)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59297738-3518-44b0-97b9-caad20e224be")
+	)
+	(fp_line
+		(start -1.8 -1.625)
+		(end 1.8 -1.625631)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7061e891-cefc-4072-8809-4025ebda8155")
+	)
+	(fp_line
+		(start -1.8 1.625)
+		(end -1.8 -1.625)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b10cdbf6-9a96-4877-b85c-1104d420f3fb")
+	)
+	(fp_line
+		(start 1.8 -1.6256)
+		(end 1.8 1.6256)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab9a6475-0581-43e5-8ec1-55fe42e4ecdb")
+	)
+	(fp_line
+		(start 1.8 1.6256)
+		(end -1.8 1.625)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48910e47-ad74-4f1b-8e68-3eae5c6eb86b")
+	)
+	(fp_line
+		(start -1.4986 -1.4986)
+		(end -1.4986 1.4986)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7482ad4-10db-4280-9364-d255ec0c40be")
+	)
+	(fp_line
+		(start -1.4986 1.4986)
+		(end 1.4986 1.4986)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dbe1a50-c3eb-4950-afcb-fc32425cd4cd")
+	)
+	(fp_line
+		(start 1.4986 -1.4986)
+		(end -1.4986 -1.4986)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "536485de-0aa8-41b1-9dfa-7dc596c42ca1")
+	)
+	(fp_line
+		(start 1.4986 1.4986)
+		(end 1.4986 -1.4986)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e47cd0db-2609-4e68-9776-3b4dc1eba99e")
+	)
+	(fp_arc
+		(start 0.3048 -1.4986)
+		(mid 0 -1.1938)
+		(end -0.3048 -1.4986)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90a850c0-7f50-4308-a8e4-e0663490351a")
+	)
+	(fp_circle
+		(center -0.6858 -1)
+		(end -0.6096 -1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c3650b70-5658-447a-b0ff-3346faf785d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.275 -3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "253633cb-910b-4fe1-a905-d5d23bddfa61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 -1)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2eee7e6b-7e2e-4c2e-83e5-26f0606d6623")
+	)
+	(pad "2" smd rect
+		(at -1.2 0)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e0bc043-cf31-407d-9504-d4f49527f0da")
+	)
+	(pad "3" smd rect
+		(at -1.2 1)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb23f0b5-e361-45ad-99e3-a4b3eb222d67")
+	)
+	(pad "4" smd rect
+		(at 1.2 1)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ade80df0-5a27-40bf-938b-a6d49cc720f9")
+	)
+	(pad "5" smd rect
+		(at 1.2 0)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8847a52-95c8-4dd4-909e-325a5ad7c2d3")
+	)
+	(pad "6" smd rect
+		(at 1.2 -1)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "822970fb-cfe4-4e90-ae7d-48818e7ebf8d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_DIR}/Library/models/AHT20.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

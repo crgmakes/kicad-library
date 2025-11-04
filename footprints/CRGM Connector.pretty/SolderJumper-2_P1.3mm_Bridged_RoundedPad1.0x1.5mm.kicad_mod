@@ -19,6 +19,7 @@
 	(property "Value" "SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(at 0 1.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "47090aa3-9309-4fe1-8b8d-3a99dfbe88f2")
 		(effects
 			(font
