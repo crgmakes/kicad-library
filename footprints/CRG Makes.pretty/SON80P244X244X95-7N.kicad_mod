@@ -228,7 +228,7 @@
 		(uuid "ae9a9d2e-fe66-44ca-b6e0-97cfd7b06781")
 	)
 	(embedded_fonts no)
-	(model "SGP40-D-R4.stp"
+	(model "${KICAD_USER_MODEL_DIR}/SGP40-D-R4.step"
 		(offset
 			(xyz 0 0 0)
 		)
