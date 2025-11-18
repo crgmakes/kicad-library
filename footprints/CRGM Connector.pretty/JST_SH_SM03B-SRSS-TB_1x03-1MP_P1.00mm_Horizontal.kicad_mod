@@ -19,6 +19,7 @@
 	(property "Value" "JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 		(at 0 3.98 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "6e719a76-e942-4492-8959-69e5e409a20f")
 		(effects
 			(font
@@ -255,7 +256,7 @@
 		(uuid "e5fef713-fa2a-45fd-983c-32ad2a39eeb5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.175 -4.05 0)
 		(layer "F.Fab")
 		(uuid "36fe3a2e-a70c-4490-ae63-bde6e0f2bd78")
 		(effects
