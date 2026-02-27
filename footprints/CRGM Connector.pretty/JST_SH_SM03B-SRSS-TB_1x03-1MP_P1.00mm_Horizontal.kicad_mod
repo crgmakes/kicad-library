@@ -304,13 +304,13 @@
 	(embedded_fonts no)
 	(model "${KICAD_USER_MODEL_DIR}/SM03B-SRSS-TB.step"
 		(offset
-			(xyz 0 2 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -180)
+			(xyz -0 -0 -0)
 		)
 	)
 )
