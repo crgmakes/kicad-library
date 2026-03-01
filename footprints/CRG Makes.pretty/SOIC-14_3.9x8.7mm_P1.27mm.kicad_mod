@@ -275,7 +275,7 @@
 		(uuid "e402084d-fe1d-4c73-b25c-dc7384fcdad8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

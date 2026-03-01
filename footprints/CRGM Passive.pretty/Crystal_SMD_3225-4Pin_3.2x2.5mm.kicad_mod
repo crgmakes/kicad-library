@@ -200,7 +200,7 @@
 		(uuid "8aab68a0-7cf9-499a-92b2-e9f7e36e6857")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
