@@ -1112,7 +1112,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_MODEL_DIR}/ESP32-S3-WROOM-1-N4R2.step"
+	(model "${KICAD_USER_MODEL_DIR}/ESP32-S3-WROOM-1-N16R2.step"
 		(offset
 			(xyz 0 0 0)
 		)
