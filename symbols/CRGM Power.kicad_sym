@@ -1049,7 +1049,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 0 6.35 0)
+			(at 0 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1077,7 @@
 			)
 		)
 		(property "MN" "Diodes Incorporated"
-			(at 0 0 0)
+			(at 0 -32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1086,7 @@
 			)
 		)
 		(property "MPN" "AZ1084CD-3.3TRG1"
-			(at 0 0 0)
+			(at 0 -28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1095,7 @@
 			)
 		)
 		(property "Mouser" "621-AZ1084CD-3.3TRG1"
-			(at 0 0 0)
+			(at 0 -30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1104,7 @@
 			)
 		)
 		(property "Digikey" "AZ1084CD-3.3TRG1DITR-ND"
-			(at 0 0 0)
+			(at 0 -35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
