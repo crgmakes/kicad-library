@@ -1675,7 +1675,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "16"
 					(effects
 						(font
 							(size 0 0)
@@ -1693,7 +1693,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "15"
 					(effects
 						(font
 							(size 0 0)
@@ -1888,7 +1888,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "4"
 					(effects
 						(font
 							(size 0 0)
@@ -1906,7 +1906,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "3"
 					(effects
 						(font
 							(size 0 0)
@@ -2127,7 +2127,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "0"
 					(effects
 						(font
 							(size 0 0)
@@ -2145,7 +2145,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "4"
 					(effects
 						(font
 							(size 0 0)
@@ -2306,14 +2306,14 @@
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.54)
-				(name "4"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 0 0)
@@ -2323,24 +2323,6 @@
 			)
 			(pin passive line
 				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -2358,16 +2340,34 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -7.62 0)
+				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "1"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0 0)
@@ -2385,7 +2385,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "0"
 					(effects
 						(font
 							(size 0 0)
@@ -2403,7 +2403,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "5"
 					(effects
 						(font
 							(size 0 0)
@@ -2679,7 +2679,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "0"
 					(effects
 						(font
 							(size 0 0)
@@ -2697,7 +2697,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "7"
 					(effects
 						(font
 							(size 0 0)
@@ -3018,7 +3018,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "0"
 					(effects
 						(font
 							(size 0 0)
@@ -3036,7 +3036,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "9"
 					(effects
 						(font
 							(size 0 0)
@@ -3152,14 +3152,14 @@
 			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "9"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "1"
 					(effects
 						(font
 							(size 0 0)
@@ -3170,14 +3170,14 @@
 			(pin passive line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "8"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "2"
 					(effects
 						(font
 							(size 0 0)
@@ -3188,14 +3188,14 @@
 			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "7"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "3"
 					(effects
 						(font
 							(size 0 0)
@@ -3206,14 +3206,14 @@
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "6"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 0 0)
@@ -3242,14 +3242,14 @@
 			(pin passive line
 				(at -2.54 -15.24 0)
 				(length 2.54)
-				(name "4"
+				(name "6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 0 0)
@@ -3260,14 +3260,14 @@
 			(pin passive line
 				(at -2.54 -17.78 0)
 				(length 2.54)
-				(name "3"
+				(name "7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "7"
 					(effects
 						(font
 							(size 0 0)
@@ -3278,14 +3278,14 @@
 			(pin passive line
 				(at -2.54 -20.32 0)
 				(length 2.54)
-				(name "2"
+				(name "8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "8"
 					(effects
 						(font
 							(size 0 0)
@@ -3296,14 +3296,14 @@
 			(pin passive line
 				(at -2.54 -22.86 0)
 				(length 2.54)
-				(name "1"
+				(name "9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "9"
 					(effects
 						(font
 							(size 0 0)
@@ -3321,7 +3321,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "11"
 					(effects
 						(font
 							(size 0 0)
@@ -3339,7 +3339,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "10"
 					(effects
 						(font
 							(size 0 0)
@@ -5915,7 +5915,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "5"
 					(effects
 						(font
 							(size 0 0)
@@ -5933,7 +5933,7 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "0"
 					(effects
 						(font
 							(size 0 0)
@@ -8015,7 +8015,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CRGM Connector:XF2C_1415-1A"
+		(property "Footprint" "CRGM Connector:XF2M-1415-1A"
 			(at 0 -22.352 0)
 			(effects
 				(font
