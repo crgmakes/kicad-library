@@ -1,7 +1,7 @@
 (footprint "SOT23W"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3-SOT23, 0.95 mm pitch, 2.85 mm span, 3.00 X 1.98 X 1.13 mm body\n\n3-pin SOT23 package with 0.95 mm pitch, 2.85 mm span with body size 3.00 X 1.98 X 1.13 mm")
 	(property "Reference" "REF**"
@@ -30,18 +30,6 @@
 			(justify left top)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "65e3afb9-b807-4fae-9def-ebe7ecebf7e8")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -67,8 +55,8 @@
 		)
 	)
 	(fp_line
-		(start -1 -1.5)
-		(end 1 -1.5)
+		(start -1 -1.55)
+		(end 1 -1.55)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -77,8 +65,8 @@
 		(uuid "2551b3ad-697f-4ca7-a650-c87ebb819e52")
 	)
 	(fp_line
-		(start -1 1.5)
-		(end 1 1.5)
+		(start -1 1.55)
+		(end 1 1.55)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -87,8 +75,8 @@
 		(uuid "e5c55605-9484-4fce-9dbf-b0c4bb018a44")
 	)
 	(fp_line
-		(start 1 -1.5)
-		(end 1 -0.5486)
+		(start 1 -1.5507)
+		(end 1 -0.5993)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -97,8 +85,8 @@
 		(uuid "a31207cb-7047-4abb-8b22-74c77e24ee19")
 	)
 	(fp_line
-		(start 1 1.5)
-		(end 1 0.5486)
+		(start 1 1.55)
+		(end 1 0.5986)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -146,10 +134,23 @@
 		(layer "F.Fab")
 		(uuid "c3faba48-a07b-4c6d-9512-ed482f65dd95")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -2.95 0.525 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c4ccfee-5e6f-44de-b96e-db1fb39836b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "1" smd rect
 		(at -1.2 -0.95)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "f6b61f05-e6d0-48f3-a655-4f74190bab2e")
@@ -157,7 +158,7 @@
 	(pad "2" smd rect
 		(at -1.2 0.95)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "57ca90e6-5713-4588-a760-2512f3dc79b5")
@@ -165,9 +166,21 @@
 	(pad "3" smd rect
 		(at 1.2 0)
 		(size 1 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "27de9da6-079e-4b23-8367-fdc98d8f1c5f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_DIR}/Library/models/A1324LLHLT-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
 	)
 )
