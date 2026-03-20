@@ -172,7 +172,7 @@
 		(uuid "27de9da6-079e-4b23-8367-fdc98d8f1c5f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_DIR}/Library/models/A1324LLHLT-T.step"
+	(model "${KICAD_USER_MODEL_DIR}/A1324LLHLT-T.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -180,7 +180,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 90)
+			(xyz -0 -0 -0)
 		)
 	)
 )
