@@ -1977,7 +1977,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+		(property "Footprint" "CRG Makes:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm_ThermalVias"
 			(at -0.762 -30.48 0)
 			(effects
 				(font
