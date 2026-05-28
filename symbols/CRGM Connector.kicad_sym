@@ -1766,7 +1766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "CRGM Connector:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 			(at 1.27 8.89 0)
 			(effects
 				(font
@@ -1793,6 +1793,24 @@
 				(hide yes)
 			)
 		)
+		(property "MN" "JST"
+			(at 0 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM02B-SRSS-TB"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Digikey" "455-1788-2-ND"
 			(at 0 -14.986 0)
 			(effects
@@ -1811,17 +1829,8 @@
 				(hide yes)
 			)
 		)
-		(property "MN" "JST"
-			(at 0 -10.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BM02B-SRSS-TB"
-			(at 0 -12.7 0)
+		(property "LCSC" "C2904984"
+			(at 0 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)

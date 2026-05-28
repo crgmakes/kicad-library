@@ -19,6 +19,7 @@
 	(property "Value" "JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 		(at 0 3.3 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a6b55d6b-5b0b-406e-bd25-3311fa66f177")
 		(effects
 			(font
@@ -52,8 +53,9 @@
 		)
 	)
 	(property "Digikey" "455-1788-2-ND"
-		(at 0 12.575 0)
+		(at -0.1 6.875 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "f8fa3371-e442-4bdb-979d-f89b982e87bb")
 		(effects
 			(font
@@ -63,8 +65,9 @@
 		)
 	)
 	(property "Mouser" "306-BM02BSRSSTBLFSNP"
-		(at 0 11 0)
+		(at -0.1 5.3 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "70b5eb67-7753-49bb-a1c4-35c17f33b831")
 		(effects
 			(font
@@ -74,8 +77,9 @@
 		)
 	)
 	(property "LCSC" "C2904984"
-		(at 0.025 14 0)
+		(at -0.075 8.3 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "b61352f6-c9fc-46ae-afd2-6721fe53a8fe")
 		(effects
 			(font
@@ -359,6 +363,13 @@
 			)
 		)
 	)
+	(pad "0" smd roundrect
+		(at -1.8 -1.2)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "05d61b23-3523-4884-ad83-8b9e6fd0f322")
+	)
 	(pad "1" smd roundrect
 		(at -0.5 1.325)
 		(size 0.6 1.55)
@@ -373,14 +384,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "3edf29e3-52ae-49f0-8086-85cfb604db2d")
 	)
-	(pad "MP" smd roundrect
-		(at -1.8 -1.2)
-		(size 1.2 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.208333)
-		(uuid "05d61b23-3523-4884-ad83-8b9e6fd0f322")
-	)
-	(pad "MP" smd roundrect
+	(pad "3" smd roundrect
 		(at 1.8 -1.2)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
