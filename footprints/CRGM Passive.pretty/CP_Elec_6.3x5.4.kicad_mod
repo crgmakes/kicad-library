@@ -410,7 +410,7 @@
 		(uuid "98ee789c-9b3c-4987-87c5-0be40918f190")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x5.4.step"
+	(model "${KICAD_USER_MODEL_DIR}/CP_Elec_6.3x5.4.step"
 		(offset
 			(xyz 0 0 0)
 		)

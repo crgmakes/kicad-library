@@ -334,7 +334,7 @@
 		(uuid "633d6025-c6f1-41a0-878d-4205d115611d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step"
+	(model "${KICAD_USER_MODEL_DIR}/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

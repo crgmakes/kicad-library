@@ -469,7 +469,7 @@
 		(uuid "9cf6044a-210b-4625-b367-69f3bb8ed8cb")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_MODEL_DIR}/BM04B-SRSS-TB.step"
+	(model "${KICAD_USER_MODEL_DIR}/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

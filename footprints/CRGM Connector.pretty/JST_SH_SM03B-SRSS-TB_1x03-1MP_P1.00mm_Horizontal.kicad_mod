@@ -302,7 +302,7 @@
 		(uuid "405d6f01-6740-4a42-9771-20de40cfd48d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_MODEL_DIR}/SM03B-SRSS-TB.step"
+	(model "${KICAD_USER_MODEL_DIR}/JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)
