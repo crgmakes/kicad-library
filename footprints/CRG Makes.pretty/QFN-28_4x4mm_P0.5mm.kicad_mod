@@ -53,26 +53,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.11 -2.11)
-		(end -1.885 -2.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bad0fe62-1a5a-49ac-bed9-b01f5fc898f8")
-	)
-	(fp_line
-		(start -2.11 -1.885)
-		(end -2.11 -2.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4e9ddd5e-ddc8-498a-93a3-2ecc9e2fc46a")
-	)
-	(fp_line
 		(start -2.11 2.11)
 		(end -2.11 1.885)
 		(stroke
@@ -134,7 +114,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.64 -1.5) (xy -2.97 -1.26) (xy -2.97 -1.74)
+			(xy -2.1 -1.85) (xy -2.34 -2.18) (xy -1.86 -2.18)
 		)
 		(stroke
 			(width 0.12)
@@ -660,7 +640,7 @@
 		(uuid "0739afdc-7dfe-407d-8afa-1c2d25719639")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-28_4x4mm_P0.5mm.step"
+	(model "${KICAD_USER_DIR}/Library/models/STM32C031G4U6.step"
 		(offset
 			(xyz 0 0 0)
 		)
