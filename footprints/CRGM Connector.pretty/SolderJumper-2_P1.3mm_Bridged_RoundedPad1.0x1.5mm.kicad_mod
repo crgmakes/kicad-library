@@ -1,14 +1,14 @@
 (footprint "SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 	(tags "net tie solder jumper bridged")
 	(property "Reference" "REF**"
 		(at 0 -1.8 0)
 		(layer "F.SilkS")
-		(uuid "7e665f20-2274-46c5-b843-429dec3d10e8")
+		(uuid "61e1d856-fcb5-4671-a8f9-0f04cdf00df1")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1.9 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "47090aa3-9309-4fe1-8b8d-3a99dfbe88f2")
+		(uuid "da863679-acf8-4074-9b41-4c8238f108f5")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "09f04004-e42d-4901-8654-2017adc86ec5")
+		(uuid "518a587e-6b7d-4b10-92c6-fcb2ef711552")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "174271f2-71a3-44be-a2d2-154173802b94")
+		(uuid "a99b1a5b-047b-4240-8613-f174d9a7d191")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,6 +57,7 @@
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 0.25 -0.3) (xy -0.25 -0.3) (xy -0.25 0.3) (xy 0.25 0.3)
@@ -67,7 +68,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "8bc6f947-f49a-4bdd-98e2-b20e557e0211")
+		(uuid "e8bd778d-aba0-4e0f-a703-b8d706ff7ffa")
 	)
 	(fp_rect
 		(start -0.15 -0.75)
@@ -78,7 +79,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "ac23f5fb-85d4-4513-afe3-6cf955101da9")
+		(uuid "37cdfd79-159a-4609-a4cd-d03754d05b75")
 	)
 	(fp_line
 		(start -1.4 0.3)
@@ -88,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a30b3f4f-61f1-42ad-8536-f5358333dbd7")
+		(uuid "26ebacd6-4c79-44cf-8cde-780054a1291a")
 	)
 	(fp_line
 		(start -0.7 -1)
@@ -98,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6dd483d2-b998-42e4-90d3-e028559844b4")
+		(uuid "cf11763f-e533-460c-bcb9-1540a1300b66")
 	)
 	(fp_line
 		(start 0.7 1)
@@ -108,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "21f82b70-4b0c-4fdc-981f-c25387bb02c4")
+		(uuid "8d2fcc57-5a56-4eda-9b39-2c24a3afec1b")
 	)
 	(fp_line
 		(start 1.4 -0.3)
@@ -118,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dbac6d59-a469-45f1-9d8b-cf4fb0d717ec")
+		(uuid "cf8d45d7-318e-4c99-9714-82f9206e936a")
 	)
 	(fp_arc
 		(start -1.4 -0.3)
@@ -129,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "099f0c6e-f09a-4f36-a7bc-dcb9ad7052ec")
+		(uuid "bbdca23c-e942-4c0b-bf67-d5ac84b2ac21")
 	)
 	(fp_arc
 		(start -0.7 1)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0facf102-4410-45d1-98c0-376291f19ed2")
+		(uuid "fd239d2c-fd59-4500-83b6-6a54ce896247")
 	)
 	(fp_arc
 		(start 0.7 -1)
@@ -151,7 +152,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aac4465c-f519-4e64-bad1-e752edde6ef6")
+		(uuid "547cde5b-5dd4-4e77-97ff-fb6a5ce9b4e7")
 	)
 	(fp_arc
 		(start 1.4 0.3)
@@ -162,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a527c0ce-4964-4cf1-9531-d25d2e6a377d")
+		(uuid "9ac01287-fc6f-416b-9a4a-e4007f788508")
 	)
 	(fp_line
 		(start -1.2 -0.8)
@@ -172,7 +173,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b26fc4f4-9fe1-4ea4-8b20-4a6807b0424c")
+		(uuid "af6b83fa-4e77-4503-b05c-26b0dca468a2")
 	)
 	(fp_line
 		(start -1.2 -0.8)
@@ -182,7 +183,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6acd19c2-033a-4f93-a92b-78f044d3de0c")
+		(uuid "a79625d1-2e79-43db-94f2-ecc325aaa3cf")
 	)
 	(fp_line
 		(start 1.2 0.8)
@@ -192,7 +193,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "665353ca-4e2b-4800-bc88-43129d3b2f09")
+		(uuid "4d432c3d-8e39-4cd0-8542-5f410716b74a")
 	)
 	(fp_line
 		(start 1.2 0.8)
@@ -202,7 +203,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3f57bb6a-1d91-41bd-84f0-907a6a4f2f94")
+		(uuid "935afe1c-fb38-479e-8a03-b74a6c1c3dcb")
 	)
 	(pad "1" smd custom
 		(at -0.65 0)
@@ -235,7 +236,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "9003f6f7-52c6-46a0-bdfb-49f7aa2ac367")
+		(uuid "78c3cbca-f1f6-4046-9220-8ff4efe4be06")
 	)
 	(pad "2" smd custom
 		(at 0.65 0)
@@ -268,7 +269,77 @@
 				(fill yes)
 			)
 		)
-		(uuid "cb34049a-1987-4949-ab7a-f4fb6fbc034c")
+		(uuid "075f8d45-61e2-4ecd-b6a0-73ca2d8dd066")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "97f812b1-75d4-4d96-89d7-cbf790b310a2")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.15 -0.75) (xy 0.15 -0.75) (xy 0.15 -0.3) (xy -0.15 -0.3)
+			)
+		)
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "950d77ff-d3ee-4e1c-9c21-3e26bd9af8aa")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -0.15 0.3) (xy 0.15 0.3) (xy 0.15 0.75) (xy -0.15 0.75)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
