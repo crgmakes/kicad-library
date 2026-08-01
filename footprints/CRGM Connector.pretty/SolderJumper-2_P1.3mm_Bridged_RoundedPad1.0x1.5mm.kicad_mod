@@ -5,22 +5,11 @@
 	(layer "F.Cu")
 	(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 	(tags "net tie solder jumper bridged")
-	(property "Reference" "REF**"
-		(at 0 -1.8 0)
-		(layer "F.SilkS")
-		(uuid "61e1d856-fcb5-4671-a8f9-0f04cdf00df1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Value" "SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 		(at 0 1.9 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "da863679-acf8-4074-9b41-4c8238f108f5")
+		(uuid "ba8f237e-bec4-4ef6-999d-3668aac0e774")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "518a587e-6b7d-4b10-92c6-fcb2ef711552")
+		(uuid "ddf477f6-5fd4-47a4-802f-1e662a083ed8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,10 +35,21 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a99b1a5b-047b-4240-8613-f174d9a7d191")
+		(uuid "72b84887-f0b1-4a9a-bb9b-8930ab6a75d0")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "b5e95603-58eb-42bf-b855-fd1554da9bc3")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -68,7 +68,7 @@
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "e8bd778d-aba0-4e0f-a703-b8d706ff7ffa")
+		(uuid "8d5e6af5-6082-4bc3-bbab-1e22c7356e87")
 	)
 	(fp_rect
 		(start -0.15 -0.75)
@@ -79,7 +79,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "37cdfd79-159a-4609-a4cd-d03754d05b75")
+		(uuid "69af5d43-fdbc-4d80-800e-5eb2955be964")
 	)
 	(fp_line
 		(start -1.4 0.3)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "26ebacd6-4c79-44cf-8cde-780054a1291a")
+		(uuid "dfa56eec-663e-4d59-8f2a-3b2325a965ec")
 	)
 	(fp_line
 		(start -0.7 -1)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cf11763f-e533-460c-bcb9-1540a1300b66")
+		(uuid "82d536cb-eb50-4d66-8365-8636eae9392f")
 	)
 	(fp_line
 		(start 0.7 1)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8d2fcc57-5a56-4eda-9b39-2c24a3afec1b")
+		(uuid "64d7db92-a249-4156-a819-d550a23a34b1")
 	)
 	(fp_line
 		(start 1.4 -0.3)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cf8d45d7-318e-4c99-9714-82f9206e936a")
+		(uuid "c80dc495-b228-48e9-b801-165a3ab19b80")
 	)
 	(fp_arc
 		(start -1.4 -0.3)
@@ -130,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bbdca23c-e942-4c0b-bf67-d5ac84b2ac21")
+		(uuid "3acbe40b-b9ab-475f-9adc-0e12766f0086")
 	)
 	(fp_arc
 		(start -0.7 1)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fd239d2c-fd59-4500-83b6-6a54ce896247")
+		(uuid "7c15bcf0-b1bf-4183-89b4-544aab804ab1")
 	)
 	(fp_arc
 		(start 0.7 -1)
@@ -152,7 +152,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "547cde5b-5dd4-4e77-97ff-fb6a5ce9b4e7")
+		(uuid "63ca2962-d117-4cef-afac-ef7d9290a646")
 	)
 	(fp_arc
 		(start 1.4 0.3)
@@ -163,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9ac01287-fc6f-416b-9a4a-e4007f788508")
+		(uuid "9276319d-6f77-4e7d-8290-fd47d6046a62")
 	)
 	(fp_line
 		(start -1.2 -0.8)
@@ -173,7 +173,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "af6b83fa-4e77-4503-b05c-26b0dca468a2")
+		(uuid "2f315459-22ce-424c-aa66-1f6c8d50e8ca")
 	)
 	(fp_line
 		(start -1.2 -0.8)
@@ -183,7 +183,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a79625d1-2e79-43db-94f2-ecc325aaa3cf")
+		(uuid "1b289b80-f905-4ee8-96a9-fe2f0b857f2a")
 	)
 	(fp_line
 		(start 1.2 0.8)
@@ -193,7 +193,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "4d432c3d-8e39-4cd0-8542-5f410716b74a")
+		(uuid "d24eabed-2a9c-48a6-97de-28b09250a1ec")
 	)
 	(fp_line
 		(start 1.2 0.8)
@@ -203,7 +203,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "935afe1c-fb38-479e-8a03-b74a6c1c3dcb")
+		(uuid "e67f6ecc-c953-4544-845e-5df51bd5f737")
 	)
 	(pad "1" smd custom
 		(at -0.65 0)
@@ -236,7 +236,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "78c3cbca-f1f6-4046-9220-8ff4efe4be06")
+		(uuid "52e24793-50df-4d8e-9550-e8e8cf2eeb95")
 	)
 	(pad "2" smd custom
 		(at 0.65 0)
@@ -269,27 +269,22 @@
 				(fill yes)
 			)
 		)
-		(uuid "075f8d45-61e2-4ecd-b6a0-73ca2d8dd066")
+		(uuid "3becea08-7dfe-4095-8678-737efdd5153b")
 	)
 	(zone
-		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(uuid "97f812b1-75d4-4d96-89d7-cbf790b310a2")
+		(layers "F.Cu" "B.Cu")
+		(uuid "0d7801bf-9349-43c6-a317-839cb1847c82")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour not_allowed)
-			(footprints not_allowed)
+			(footprints allowed)
 		)
 		(placement
 			(enabled no)
@@ -307,24 +302,19 @@
 		)
 	)
 	(zone
-		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu"
-		)
-		(uuid "950d77ff-d3ee-4e1c-9c21-3e26bd9af8aa")
+		(layers "F.Cu" "B.Cu")
+		(uuid "5ba195a0-7d65-4a29-a2a3-53384ce04ad9")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour not_allowed)
-			(footprints not_allowed)
+			(footprints allowed)
 		)
 		(placement
 			(enabled no)
