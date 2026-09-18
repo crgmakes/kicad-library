@@ -1,14 +1,14 @@
 (footprint "SOT23W"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "3-SOT23, 0.95 mm pitch, 2.85 mm span, 3.00 X 1.98 X 1.13 mm body\n\n3-pin SOT23 package with 0.95 mm pitch, 2.85 mm span with body size 3.00 X 1.98 X 1.13 mm")
 	(property "Reference" "REF**"
-		(at -1.143 -2.7606 0)
+		(at -1.143 -2.9106 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "56fcd1a3-af78-429a-addd-9768677f4ee7")
+		(uuid "5dd43252-9dab-44ee-b3b4-62cde62ba9e3")
 		(effects
 			(font
 				(size 0.8636 0.8636)
@@ -21,7 +21,7 @@
 		(at -1.016 1.8126 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0fe33766-fb8f-40e5-9791-2ba5d9f6eb16")
+		(uuid "5b0d16d5-4a09-4feb-993d-19c351c2606a")
 		(effects
 			(font
 				(size 0.8636 0.8636)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "98c3e2f0-dbed-4d76-8ee1-a03bccf88c3f")
+		(uuid "692e4599-0e8c-4249-8aa7-6a6cddc007b6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "319c85a2-5a5a-442a-b37e-ee6250d97b01")
+		(uuid "c2a9f866-34c1-4ce2-bbe1-6bcea1f8c67e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,45 +54,46 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1 -1.55)
-		(end 1 -1.55)
+		(start -1 -1.65)
+		(end 1 -1.65)
 		(stroke
 			(width 0.2032)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2551b3ad-697f-4ca7-a650-c87ebb819e52")
+		(uuid "aa1cd142-350f-4293-a631-afe317986441")
 	)
 	(fp_line
-		(start -1 1.55)
-		(end 1 1.55)
+		(start -1 1.65)
+		(end 1 1.65)
 		(stroke
 			(width 0.2032)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e5c55605-9484-4fce-9dbf-b0c4bb018a44")
+		(uuid "67569174-2bb8-4720-85a8-542da4ce6774")
 	)
 	(fp_line
-		(start 1 -1.5507)
-		(end 1 -0.5993)
+		(start 1 -1.65)
+		(end 1 -0.78)
 		(stroke
 			(width 0.2032)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a31207cb-7047-4abb-8b22-74c77e24ee19")
+		(uuid "fda97155-9848-4694-a04d-7aa10a434bd1")
 	)
 	(fp_line
-		(start 1 1.55)
-		(end 1 0.5986)
+		(start 1 1.65)
+		(end 1 0.78)
 		(stroke
 			(width 0.2032)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fbc805c7-a234-49f9-ba9b-308eae71ba07")
+		(uuid "a713d749-59f3-4005-968b-18e9144767be")
 	)
 	(fp_line
 		(start -1 -1.5)
@@ -102,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fe47fe43-e8a9-4a48-8832-7f38a84b89fd")
+		(uuid "a3e96565-4886-46d1-ad08-a07ca8ee7a6c")
 	)
 	(fp_line
 		(start -1 1.5)
@@ -112,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e32f57f2-7d83-4db5-af95-e20c4f49986b")
+		(uuid "23545c04-a954-40b2-ab7f-8efab6038c51")
 	)
 	(fp_line
 		(start 1 -1.5)
@@ -122,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "708255d7-e7bf-4754-9cfe-42e28138e688")
+		(uuid "5ccd7b6f-431b-49e5-8f06-dfd267886d3a")
 	)
 	(fp_line
 		(start 1 1.5)
@@ -132,13 +133,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c3faba48-a07b-4c6d-9512-ed482f65dd95")
+		(uuid "7c401498-85ed-4da4-8dd3-8c64dd031799")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -2.95 0.525 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1c4ccfee-5e6f-44de-b96e-db1fb39836b6")
+		(uuid "ad518317-1ed6-4176-8ff9-0a71bf261869")
 		(effects
 			(font
 				(size 1 1)
@@ -153,7 +154,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "f6b61f05-e6d0-48f3-a655-4f74190bab2e")
+		(uuid "5df11fa1-3190-447a-bcf5-56ececd36c83")
 	)
 	(pad "2" smd rect
 		(at -1.2 0.95)
@@ -161,7 +162,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "57ca90e6-5713-4588-a760-2512f3dc79b5")
+		(uuid "82a00130-d4b9-41c1-9e6f-037e8298ead9")
 	)
 	(pad "3" smd rect
 		(at 1.2 0)
@@ -169,7 +170,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
-		(uuid "27de9da6-079e-4b23-8367-fdc98d8f1c5f")
+		(uuid "35307bb3-2fec-41ad-a249-f0748d9e651b")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_USER_MODEL_DIR}/A1324LLHLT-T.step"

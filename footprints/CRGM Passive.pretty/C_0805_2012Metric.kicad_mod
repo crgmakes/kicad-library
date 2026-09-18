@@ -5,11 +5,22 @@
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.68 0)
+		(layer "F.SilkS")
+		(uuid "dbd2713a-a62a-40c9-a66a-9f42b03ffd96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(property "Value" "C_0805_2012Metric"
 		(at 0 1.68 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "395f42a4-80c7-46b9-809a-fc0cfe1faa51")
+		(uuid "4e76864e-9f9c-4a51-ae81-d080082b2c95")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "06eeb41c-6e32-46ba-a7d2-611be93db5be")
+		(uuid "756c57ae-aab0-4da4-874d-475975ec8cb2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,33 +43,10 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d638c4dd-d553-4144-98a7-c4622f51dadd")
+		(uuid "66ba9f26-8236-494d-b08c-2fc1a8c0786e")
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "8ce332ea-a55c-4947-bea2-ebcdc358e345")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 0 -1.68 0)
-		(layer "F.SilkS")
-		(uuid "69c92b21-e0e1-4c97-9f3a-d830191f2486")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "40f6ad9a-f59f-426c-bba0-e180ce9f4e69")
+		(uuid "58f05591-0035-46a3-bb57-1dd12cba6264")
 	)
 	(fp_line
 		(start -0.261252 0.735)
@@ -82,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3b8f1e44-957b-452b-97b9-d9008172b229")
+		(uuid "2244984b-221e-41ef-8d2b-8cdd153d11fa")
 	)
 	(fp_rect
 		(start -1.45 -0.75)
@@ -93,7 +81,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7e9e76d1-9e4a-4672-8d69-9ca3e90bb123")
+		(uuid "f09c19ff-a406-4e84-b397-3a555801e1e4")
 	)
 	(fp_rect
 		(start -1 -0.625)
@@ -104,12 +92,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "d63738b7-6774-4b1e-a69f-a1bd4f283008")
+		(uuid "ef873eaf-4415-4f7b-bb57-0c3d3ae99cc5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "43898252-6970-4135-abf3-e639fc48e6c6")
+		(uuid "b977ebaa-fe33-4599-8c63-68811c6b160a")
 		(effects
 			(font
 				(size 1 1)
@@ -122,14 +110,14 @@
 		(size 1 1.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "14a7a670-9d16-4f50-82a1-b079edee6293")
+		(uuid "885e4ddc-7c90-4110-a0d3-5732e285fcd8")
 	)
 	(pad "2" smd roundrect
 		(at 0.95 0)
 		(size 1 1.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "4e0f0932-7e78-4b76-b61f-a061ca1e45a1")
+		(uuid "b86eee3d-8bb9-4744-b4b9-3ef57534be79")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_USER_MODEL_DIR}/C_0805_2012Metric.step"
